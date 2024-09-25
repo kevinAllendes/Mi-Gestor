@@ -1,4 +1,4 @@
-namespace MiGestor.Models;
+namespace Gestor.Models;
 
 public class TipoUsuarios
 {

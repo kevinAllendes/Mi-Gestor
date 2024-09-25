@@ -1,4 +1,4 @@
-namespace MiGestor
+namespace Gestor
 {
     public class TipoEstados
     {

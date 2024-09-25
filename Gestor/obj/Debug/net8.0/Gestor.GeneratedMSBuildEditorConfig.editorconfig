@@ -26,16 +26,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kevin/Documents/GitHub/Mi-Gestor/Gestor/Views/LogInUsuarios.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9nSW5Vc3Vhcmlvcy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Kevin/Documents/GitHub/Mi-Gestor/Gestor/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Kevin/Documents/GitHub/Mi-Gestor/Gestor/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kevin/Documents/GitHub/Mi-Gestor/Gestor/Views/TipoUsuarios/LogInUsuarios.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb1VzdWFyaW9zXExvZ0luVXN1YXJpb3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Kevin/Documents/GitHub/Mi-Gestor/Gestor/Views/_ViewImports.cshtml]

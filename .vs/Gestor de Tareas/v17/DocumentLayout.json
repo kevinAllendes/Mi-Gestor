@@ -1,0 +1,202 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|c:\\users\\kevin\\documents\\github\\mi-gestor\\gestor\\servicios\\repositoriotipousuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|solutionrelative:gestor\\servicios\\repositoriotipousuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|c:\\users\\kevin\\documents\\github\\mi-gestor\\gestor\\controllers\\tipousuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|solutionrelative:gestor\\controllers\\tipousuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|c:\\users\\kevin\\documents\\github\\mi-gestor\\gestor\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|solutionrelative:gestor\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|c:\\users\\kevin\\documents\\github\\mi-gestor\\gestor\\views\\tipousuarios\\loginusuarios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|solutionrelative:gestor\\views\\tipousuarios\\loginusuarios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|c:\\users\\kevin\\documents\\github\\mi-gestor\\gestor\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|solutionrelative:gestor\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|c:\\users\\kevin\\documents\\github\\mi-gestor\\gestor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|solutionrelative:gestor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|c:\\users\\kevin\\documents\\github\\mi-gestor\\gestor\\models\\tipoestados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|solutionrelative:gestor\\models\\tipoestados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|c:\\users\\kevin\\documents\\github\\mi-gestor\\gestor\\gestor.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|solutionrelative:gestor\\gestor.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|c:\\users\\kevin\\documents\\github\\mi-gestor\\gestor\\models\\tipousuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|solutionrelative:gestor\\models\\tipousuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|c:\\users\\kevin\\documents\\github\\mi-gestor\\gestor\\models\\tipotareas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|solutionrelative:gestor\\models\\tipotareas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|c:\\users\\kevin\\documents\\github\\mi-gestor\\gestor\\models\\tipopermisos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|solutionrelative:gestor\\models\\tipopermisos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Gestor\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Gestor\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABMAAAAAAAAAAAAswCMAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-23T15:42:16.999Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LogInUsuarios.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Views\\TipoUsuarios\\LogInUsuarios.cshtml",
+              "RelativeDocumentMoniker": "Gestor\\Views\\TipoUsuarios\\LogInUsuarios.cshtml",
+              "ToolTip": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Views\\TipoUsuarios\\LogInUsuarios.cshtml",
+              "RelativeToolTip": "Gestor\\Views\\TipoUsuarios\\LogInUsuarios.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-24T15:31:05.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Gestor\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Gestor\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T15:42:58.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TipoUsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Controllers\\TipoUsuariosController.cs",
+              "RelativeDocumentMoniker": "Gestor\\Controllers\\TipoUsuariosController.cs",
+              "ToolTip": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Controllers\\TipoUsuariosController.cs",
+              "RelativeToolTip": "Gestor\\Controllers\\TipoUsuariosController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T15:41:07.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RepositorioTipoUsuarios.cs",
+              "DocumentMoniker": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Servicios\\RepositorioTipoUsuarios.cs",
+              "RelativeDocumentMoniker": "Gestor\\Servicios\\RepositorioTipoUsuarios.cs",
+              "ToolTip": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Servicios\\RepositorioTipoUsuarios.cs",
+              "RelativeToolTip": "Gestor\\Servicios\\RepositorioTipoUsuarios.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T16:01:33.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Program.cs",
+              "RelativeDocumentMoniker": "Gestor\\Program.cs",
+              "ToolTip": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Program.cs",
+              "RelativeToolTip": "Gestor\\Program.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T14:05:58.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TipoEstados.cs",
+              "DocumentMoniker": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Models\\TipoEstados.cs",
+              "RelativeDocumentMoniker": "Gestor\\Models\\TipoEstados.cs",
+              "ToolTip": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Models\\TipoEstados.cs",
+              "RelativeToolTip": "Gestor\\Models\\TipoEstados.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T15:45:16.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Gestor.csproj",
+              "DocumentMoniker": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Gestor.csproj",
+              "RelativeDocumentMoniker": "Gestor\\Gestor.csproj",
+              "ToolTip": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Gestor.csproj",
+              "RelativeToolTip": "Gestor\\Gestor.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-23T16:05:38.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TipoPermisos.cs",
+              "DocumentMoniker": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Models\\TipoPermisos.cs",
+              "RelativeDocumentMoniker": "Gestor\\Models\\TipoPermisos.cs",
+              "ToolTip": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Models\\TipoPermisos.cs",
+              "RelativeToolTip": "Gestor\\Models\\TipoPermisos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T15:45:25.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TipoTareas.cs",
+              "DocumentMoniker": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Models\\TipoTareas.cs",
+              "RelativeDocumentMoniker": "Gestor\\Models\\TipoTareas.cs",
+              "ToolTip": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Models\\TipoTareas.cs",
+              "RelativeToolTip": "Gestor\\Models\\TipoTareas.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T15:45:29.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TipoUsuarios.cs",
+              "DocumentMoniker": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Models\\TipoUsuarios.cs",
+              "RelativeDocumentMoniker": "Gestor\\Models\\TipoUsuarios.cs",
+              "ToolTip": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Models\\TipoUsuarios.cs",
+              "RelativeToolTip": "Gestor\\Models\\TipoUsuarios.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T15:45:33.139Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -17,7 +17,7 @@ namespace Gestor.Controllers
         {
             return View();
         }
-
+  
         public IActionResult Privacy()
         {
             return View();
