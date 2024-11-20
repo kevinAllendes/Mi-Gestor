@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Gestor.Models;
 using Microsoft.Data.SqlClient;
 using Dapper;
+using Gestor.Servicios;
 
 namespace Gestor.Controllers
 {
@@ -9,7 +10,9 @@ namespace Gestor.Controllers
     {
         private readonly string connectionString;
 
-        public TipoUsuariosController(IConfiguration configuration)
+        private readonly IRepositorioUsuarios repositorioUsuarios;
+
+        public TipoUsuariosController(IConfiguration configuration, IRepositorioUsuarios repositorioUsuarios)
         {
             connectionString = configuration.GetConnectionString("DefaultConnection");
         }
@@ -21,13 +24,20 @@ namespace Gestor.Controllers
         [HttpPost]
         public IActionResult LogInUsuarios(TipoUsuarios tipoUsuarios)
         {
-            using (var connection = new SqlConnection(connectionString))
+            await repositorioUsuarios.BuscarUsuario(tipoUsuarios);
+            if(tipoUsuarios.IdUser != null )
             {
-                var query = connection.Query("SELECT 1").FirstOrDefault();
+                RedirectToAction("Index");
             }
-
             return View();
         }
+        [HttpGet]
+        public IActionResult LogoutUsuarios()
+        {
+            return View();
+        }
+       
+       
 
     }
 }
