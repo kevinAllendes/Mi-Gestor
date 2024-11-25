@@ -1,0 +1,15 @@
+CREATE TABLE Usuarios
+(UserId Int PRIMARY KEY NOT NULL,
+nombreUsuarios varchar(50),
+UsrPassword  varchar(50))
+
+INSERT INTO Usuarios (UserId, nombreUsuarios, UsrPassword)
+values (1,'Kevinallendes1993@gmail.com','1234')
+
+INSERT INTO Usuarios (UserId, nombreUsuarios, UsrPassword)
+values (2,'Daniel@gmail.com','1234')
+
+INSERT INTO Usuarios (UserId, nombreUsuarios, UsrPassword)
+values (3,'Luis@gmail.com','1234')
+
+SELECT * FROM Usuarios
