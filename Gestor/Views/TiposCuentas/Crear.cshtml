@@ -1,0 +1,27 @@
+@model TipoCuenta
+
+@{
+    ViewData["Title"] = "Crear";
+}
+
+<h1>Crear un tipo de cuentas</h1>
+<h5>en esta seccion crearemos un tipo cuenta</h5>
+<!-- #region 
+No esta obligatorio agregar el asp-controller="TiposCuentas"  debido a que el formulario ya seccion encuentra en una vista que 
+esta   en una carpeta llamada TiposCuentas lo que hace que por defecto apunte hacia el controlador de TiposCuentas 
+-->
+<!-- #region  Agrgamos un nuevo span de error abajo de todoya arriba solo los errores de modelo-->
+<div asp-validation-summary="ModelOnly" class="text-danger"></div> 
+<form asp-controller="TiposCuentas" asp-action="Crear">
+    <div class="mb-3">
+        <!-- Usando tag helper para sincronizar el valor que tenga la propiedad Nombre desde el modelo
+        Para hacer esto usamos asp-for="Nombre del campo" -->
+        <label asp-for="Nombre" class="form-label"> Nombre</label>
+        <input type="text" asp-for="Nombre"  class="form-control"/>
+        <!-- #region Errores de campo-->
+        <span asp-validation-for="Nombre" class="text-danger"></span>
+        
+        
+    </div>
+    <button type="submit" class="btn btn-primary">Enviar</button>
+</form>

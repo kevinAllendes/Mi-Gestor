@@ -15,6 +15,7 @@ namespace Gestor.Controllers
         public TipoUsuariosController(IConfiguration configuration, IRepositorioUsuarios repositorioUsuarios)
         {
             connectionString = configuration.GetConnectionString("DefaultConnection");
+            this.repositorioUsuarios = repositorioUsuarios;
         }
         public IActionResult LogInUsuarios()
         {
@@ -23,14 +24,14 @@ namespace Gestor.Controllers
 
         [HttpPost]
         public IActionResult LogInUsuarios(TipoUsuarios tipoUsuarios)
-        {
-            await repositorioUsuarios.BuscarUsuario(tipoUsuarios);
-            if(tipoUsuarios.IdUser != null )
+        { 
+            if(repositorioUsuarios.BuscarUsuario(tipoUsuarios))
             {
-                RedirectToAction("Index");
+                return View("Index.cshtml","Home");
             }
             return View();
         }
+
         [HttpGet]
         public IActionResult LogoutUsuarios()
         {

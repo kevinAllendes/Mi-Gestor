@@ -7,7 +7,7 @@ namespace Gestor.Servicios
 {
     public interface IRepositorioUsuarios
     {
-        Task BuscarUsuario(TipoUsuarios usuarios);
+        bool BuscarUsuario(TipoUsuarios usuarios);
 
     }
 
@@ -19,18 +19,10 @@ namespace Gestor.Servicios
             this.connectionString = configurationString.GetConnectionString("DefaultConnection");
         }
 
-        public async Task BuscarUsuario(TipoUsuarios usuario)
+        public bool BuscarUsuario(TipoUsuarios usuario)
         {
-            using var connection = new SqlConnection(connectionString);
-            var id =  await connection.QuerySingle($@"SELECT IdUsuario FROM Usuarios WHERE Usuario = @nombreUsuario", usuario.nombreUsuario);
-            if (id != null)
-            {
-                usuario.IdUser = 0;
-            }
-            else
-            {
-                usuario.IdUser = id;
-            }
+            return usuario.nombreUsuario == "Kevin" && usuario.Password == "1234";
+            
         }
     }
 

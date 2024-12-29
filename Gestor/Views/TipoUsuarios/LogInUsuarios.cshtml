@@ -2,17 +2,21 @@
 
 @{
     ViewData["Title"] = "Log in";
+    Layout = "_layout";
 }
 
-<h1> Bienvenido al gestor. . </h1>
-<form asp-controller="TipoUsuarios" style="width: 20rem; item-align: center;" asp-action="LogInUsuarios">
-    <div class="mb-3">
-        <label for="nombreUsuario" class="form-label"> Nombre </label>
-        <input type="text" id="nombreUsuario" name="nombreUsuario" class="form-control" />
-        <label for="Password" class="form-label"> Password </label>
-        <input type="text" id="Password" name="Password" class="form-control" />
-    
+<div class="card">
+    <div class="card-body">
+        <form asp-controller="TipoUsuarios" asp-action="LogInUsuarios">
+            
+                    <label for="nombreUsuario" class="form-label"> Nombre </label>
+                    <input type="text" id="nombreUsuario" name="nombreUsuario" class="form-control" />
+                    <label for="Password" class="form-label"> Password </label>
+                    <input type="password" id="Password" name="Password" class="form-control" />
+                
+            <button type="submit" class="btn btn-primary">Logearse</button>
+            <button class="btn btn-danger" asp-action="Crear" asp-controller="TiposCuentas" >Crear Cuenta</button>
+            <button type="submit" class="btn btn-danger">Salir</button>
+        </form>
     </div>
-    <button type="submit" class="btn btn-primary">Logearse</button>
-    <button type="submit" class="btn btn-danger">Salir</button>
-</form>
+</div>
