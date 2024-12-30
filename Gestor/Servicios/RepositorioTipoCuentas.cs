@@ -9,6 +9,11 @@ namespace Gestor.Servicios
     {
         Task Crear(TipoCuenta miCuenta);
         Task<bool> Existe(string nombre, int idUsuario);
+
+        Task<IEnumerable<TipoCuenta>> Obtener(int usuarioID);
+
+        //Metodo provisorio para usuar en el trabajo
+        IEnumerable<TipoCuenta> obtenerCuentasSinBDD(int usario);
     }
 
     public class RepositorioTipoCuentas: IRepositorioTipoCuentas
@@ -45,6 +50,31 @@ namespace Gestor.Servicios
             var existe =  await connection.QueryFirstOrDefaultAsync<int>(@"SELECT 1 FROM 
             TiposCuentas WHERE Nombre = @Nombre AND UsuarioId = @UsuarioId;", new {nombre, usuarioId});
             return existe == 1;   
+        }
+
+        /*
+            Metodo para obtener los tipos de cuentas que posee el usuario
+            en forma de IEnumerable
+        */
+        public async Task<IEnumerable<TipoCuenta>> Obtener(int usuarioId)
+        {
+            using var connection = new SqlConnection(connectionString);
+            return await connection.QueryAsync<TipoCuenta>(@"SELECT Id, Nombre, Orden
+                                                            FROM TiposCuentas
+                                                            WHERE UsuarioId = @UsuarioId", new {usuarioId});
+        }
+
+        /*Creo un metodo que me devuelva una lista de cuentas ya que en la fabrica no tengo acceso a la BDD*/
+        public IEnumerable<TipoCuenta> obtenerCuentasSinBDD(int usarioID)
+        {
+            var cuenta1 = new TipoCuenta(){Nombre="Tarjetas", Orden=1};
+            var cuenta2 = new TipoCuenta(){Nombre="Sueldo", Orden=1};
+            var cuenta3 = new TipoCuenta(){Nombre="Garantia", Orden=1};
+            List<TipoCuenta> misCuentas = new List<TipoCuenta>();
+            misCuentas.Add(cuenta1);
+            misCuentas.Add(cuenta2);
+            misCuentas.Add(cuenta3);
+            return misCuentas;
         }
     }
 }

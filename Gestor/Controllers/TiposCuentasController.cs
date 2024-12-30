@@ -13,6 +13,14 @@ namespace Gestor.Controllers{
             this.repositorioTipoCuentas = repositorioTipoCuentas;
 
         }
+
+        public async Task<IActionResult> IndiceDeCuentas()
+        {
+            var usuarioID = 1;
+            var TiposCuentas = repositorioTipoCuentas.obtenerCuentasSinBDD(usuarioID);
+            //var TiposCuentas = await repositorioTipoCuentas.Obtener(usuarioID);
+            return View(TiposCuentas);
+        }
         public IActionResult Crear()
         {
             return View();
@@ -45,6 +53,23 @@ namespace Gestor.Controllers{
             await repositorioTipoCuentas.Crear(miCuenta);
 
             return View();
+        }
+
+        /* 
+            Vamos a crear un metodo con una verificacion personalizada
+            utilizando Json (informacion que mandamos desde el navegador)
+        */
+        [HttpGet]
+        public async Task<IActionResult> VerificarExisteCuenta(string nombre)
+        {
+            var usuarioId =1;
+            var yaExisteTipoCuenta = await repositorioTipoCuentas.Existe(nombre,usuarioId);
+            if(yaExisteTipoCuenta)
+            {
+                //Formato para representar datos como cadena de texto para comunicacion entre C# y JavaScript
+                return Json($"El nombre {nombre} ya existe");
+            }
+            return Json(true);
         }
 
     }
