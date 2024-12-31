@@ -7,7 +7,9 @@ namespace Gestor.Servicios
 {
     public interface IRepositorioUsuarios
     {
-        Task BuscarUsuario(TipoUsuarios usuarios);
+        bool BuscarUsuario(TipoUsuarios usuarios);
+
+        int ObtenerUsuarioId();
 
     }
 
@@ -19,18 +21,16 @@ namespace Gestor.Servicios
             this.connectionString = configurationString.GetConnectionString("DefaultConnection");
         }
 
-        public async Task BuscarUsuario(TipoUsuarios usuario)
+        public bool BuscarUsuario(TipoUsuarios usuario)
         {
-            using var connection = new SqlConnection(connectionString);
-            var id =  await connection.QuerySingle($@"SELECT IdUsuario FROM Usuarios WHERE Usuario = @nombreUsuario", usuario.nombreUsuario);
-            if (id != null)
-            {
-                usuario.IdUser = 0;
-            }
-            else
-            {
-                usuario.IdUser = id;
-            }
+            return usuario.nombreUsuario == "Kevin" && usuario.Password == "1234";
+            
+        }
+
+        public int ObtenerUsuarioId()
+        //En contruccion: Este metodo nos dara el id del usuario que esta usando la aplicacion
+        {
+            return 1;
         }
     }
 
