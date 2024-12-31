@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NNOeoHsVhHedkDaowRHIWgSPzbZqFm1VpxwCWDj6IJQ=",
+  "Hash": "c+el1Q/Pto0TsHiceffpLwRXglkS6Btml5VPsQTGAR8=",
   "Source": "Gestor",
   "BasePath": "_content/Gestor",
   "Mode": "Default",
@@ -57,6 +57,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Gestor.bundle.scp.css"
+    },
+    {
+      "Identity": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\css\\custom.css",
+      "SourceId": "Gestor",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\",
+      "BasePath": "_content/Gestor",
+      "RelativePath": "css/custom#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xd6h1vao4z",
+      "Integrity": "lVfMrJbovIwQ6ESJiopkW+F4OkVuHxFoXgTtqWEPA9o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\custom.css"
     },
     {
       "Identity": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\css\\site.css",
@@ -1067,6 +1088,405 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
+      "Identity": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\AUTHORS.txt",
+      "SourceId": "Gestor",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\",
+      "BasePath": "_content/Gestor",
+      "RelativePath": "lib/jquery-ui/AUTHORS#[.{fingerprint}]?.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "72bi5bmqwh",
+      "Integrity": "geZ7JfVsTJq8Wgjrcm1p56Zqjxx7PL9FkxhKiN8dQg8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-ui\\AUTHORS.txt"
+    },
+    {
+      "Identity": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\external\\jquery\\jquery.js",
+      "SourceId": "Gestor",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\",
+      "BasePath": "_content/Gestor",
+      "RelativePath": "lib/jquery-ui/external/jquery/jquery#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0i3buxo5is",
+      "Integrity": "eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-ui\\external\\jquery\\jquery.js"
+    },
+    {
+      "Identity": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\images\\ui-icons_444444_256x240.png",
+      "SourceId": "Gestor",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\",
+      "BasePath": "_content/Gestor",
+      "RelativePath": "lib/jquery-ui/images/ui-icons_444444_256x240#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ut8nfkxbao",
+      "Integrity": "jmTiXil6x3D/CHk8wOFXmTd0pX0pkL7CHEoZGDjDsD8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-ui\\images\\ui-icons_444444_256x240.png"
+    },
+    {
+      "Identity": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\images\\ui-icons_555555_256x240.png",
+      "SourceId": "Gestor",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\",
+      "BasePath": "_content/Gestor",
+      "RelativePath": "lib/jquery-ui/images/ui-icons_555555_256x240#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xxblgf7gh6",
+      "Integrity": "S7SAoCWRIFHhtJUmtILm35bW5c5XoJzAJHB1BymutlY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-ui\\images\\ui-icons_555555_256x240.png"
+    },
+    {
+      "Identity": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\images\\ui-icons_777620_256x240.png",
+      "SourceId": "Gestor",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\",
+      "BasePath": "_content/Gestor",
+      "RelativePath": "lib/jquery-ui/images/ui-icons_777620_256x240#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ibfjxm80uw",
+      "Integrity": "stIDtevUl3/YDzzX50pmD1KUQ5Ygr4Qf1mcAXth5i9Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-ui\\images\\ui-icons_777620_256x240.png"
+    },
+    {
+      "Identity": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\images\\ui-icons_777777_256x240.png",
+      "SourceId": "Gestor",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\",
+      "BasePath": "_content/Gestor",
+      "RelativePath": "lib/jquery-ui/images/ui-icons_777777_256x240#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9pllrf5noz",
+      "Integrity": "4/cVCTlwyRuiyvZ9ZyZ5+tnUcgBBFx88uhJdE+TO1tc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-ui\\images\\ui-icons_777777_256x240.png"
+    },
+    {
+      "Identity": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\images\\ui-icons_cc0000_256x240.png",
+      "SourceId": "Gestor",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\",
+      "BasePath": "_content/Gestor",
+      "RelativePath": "lib/jquery-ui/images/ui-icons_cc0000_256x240#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fapn45i1fp",
+      "Integrity": "x/fMbNPyGm4e1pbDDczRJW+nARxbL/1UQoUTrE8EuoA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-ui\\images\\ui-icons_cc0000_256x240.png"
+    },
+    {
+      "Identity": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\images\\ui-icons_ffffff_256x240.png",
+      "SourceId": "Gestor",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\",
+      "BasePath": "_content/Gestor",
+      "RelativePath": "lib/jquery-ui/images/ui-icons_ffffff_256x240#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "l6as84sroo",
+      "Integrity": "jTrat+ojs+EgNdn8x2+3nTJNFGErS5NQQTo4b/semhM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-ui\\images\\ui-icons_ffffff_256x240.png"
+    },
+    {
+      "Identity": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\index.html",
+      "SourceId": "Gestor",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\",
+      "BasePath": "_content/Gestor",
+      "RelativePath": "lib/jquery-ui/index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2jvjnlz339",
+      "Integrity": "ov7jFgQJzsGSk406OqyIQB3KNGoStimEZIdOr31IRGA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-ui\\index.html"
+    },
+    {
+      "Identity": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\jquery-ui.css",
+      "SourceId": "Gestor",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\",
+      "BasePath": "_content/Gestor",
+      "RelativePath": "lib/jquery-ui/jquery-ui#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nr5zftr3vh",
+      "Integrity": "83pSirg3po0U8iicAqzItE9Ei7Ke+Y926v/NWwaq+xs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-ui\\jquery-ui.css"
+    },
+    {
+      "Identity": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\jquery-ui.js",
+      "SourceId": "Gestor",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\",
+      "BasePath": "_content/Gestor",
+      "RelativePath": "lib/jquery-ui/jquery-ui#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3de1nhugwi",
+      "Integrity": "9zljDKpE/mQxmaR4V2cGVaQ7arF3CcXxarvgr7Sj8Uc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-ui\\jquery-ui.js"
+    },
+    {
+      "Identity": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\jquery-ui.min.css",
+      "SourceId": "Gestor",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\",
+      "BasePath": "_content/Gestor",
+      "RelativePath": "lib/jquery-ui/jquery-ui.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xlfsqd798a",
+      "Integrity": "BZzC0trQoV17OTuLkPiMVQ8mYf05J/hEN+ls36embMw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-ui\\jquery-ui.min.css"
+    },
+    {
+      "Identity": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\jquery-ui.min.js",
+      "SourceId": "Gestor",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\",
+      "BasePath": "_content/Gestor",
+      "RelativePath": "lib/jquery-ui/jquery-ui.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "if5udyg90s",
+      "Integrity": "AlTido85uXPlSyyaZNsjJXeCs07eSv3r43kyCVc8ChI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-ui\\jquery-ui.min.js"
+    },
+    {
+      "Identity": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\jquery-ui.structure.css",
+      "SourceId": "Gestor",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\",
+      "BasePath": "_content/Gestor",
+      "RelativePath": "lib/jquery-ui/jquery-ui.structure#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xmuqfn50qh",
+      "Integrity": "Z2eOPbnIw179GsUMSPP9kSieuFr1DuLyvAfZcmTngho=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-ui\\jquery-ui.structure.css"
+    },
+    {
+      "Identity": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\jquery-ui.structure.min.css",
+      "SourceId": "Gestor",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\",
+      "BasePath": "_content/Gestor",
+      "RelativePath": "lib/jquery-ui/jquery-ui.structure.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0avc6en0p3",
+      "Integrity": "WFe3Ac5JObwyT2ZhpqVZOTTiUy0J/TchbEH/9VuNaWc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-ui\\jquery-ui.structure.min.css"
+    },
+    {
+      "Identity": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\jquery-ui.theme.css",
+      "SourceId": "Gestor",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\",
+      "BasePath": "_content/Gestor",
+      "RelativePath": "lib/jquery-ui/jquery-ui.theme#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "s0k6h7qcks",
+      "Integrity": "JIhmxvw5Wi3vZ1oSuOWNGzYHUe286tslxK1LOGrVYeY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-ui\\jquery-ui.theme.css"
+    },
+    {
+      "Identity": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\jquery-ui.theme.min.css",
+      "SourceId": "Gestor",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\",
+      "BasePath": "_content/Gestor",
+      "RelativePath": "lib/jquery-ui/jquery-ui.theme.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8kjarcocxj",
+      "Integrity": "eFOzUgdhGLmqPH32Z1JdslFUpfivdPRTBd1MzTVGEks=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-ui\\jquery-ui.theme.min.css"
+    },
+    {
+      "Identity": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\LICENSE.txt",
+      "SourceId": "Gestor",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\",
+      "BasePath": "_content/Gestor",
+      "RelativePath": "lib/jquery-ui/LICENSE#[.{fingerprint}]?.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mtq9ih5pls",
+      "Integrity": "9kkCXPZcjc2FiLCTeIO6elK9ttNRKUZKNqFgLrACUPE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-ui\\LICENSE.txt"
+    },
+    {
+      "Identity": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\package.json",
+      "SourceId": "Gestor",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\",
+      "BasePath": "_content/Gestor",
+      "RelativePath": "lib/jquery-ui/package#[.{fingerprint}]?.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qaocao8vyd",
+      "Integrity": "AvCATruWzbwY7NsfzcUR2WqPjslGO8M7hHzTj1AYDQY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-ui\\package.json"
+    },
+    {
       "Identity": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Gestor",
       "SourceType": "Discovered",
@@ -1320,6 +1740,88 @@
     }
   ],
   "Endpoints": [
+    {
+      "Route": "css/custom.css",
+      "AssetFile": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\css\\custom.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lVfMrJbovIwQ6ESJiopkW+F4OkVuHxFoXgTtqWEPA9o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 00:17:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lVfMrJbovIwQ6ESJiopkW+F4OkVuHxFoXgTtqWEPA9o="
+        }
+      ]
+    },
+    {
+      "Route": "css/custom.xd6h1vao4z.css",
+      "AssetFile": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\css\\custom.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lVfMrJbovIwQ6ESJiopkW+F4OkVuHxFoXgTtqWEPA9o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 00:17:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xd6h1vao4z"
+        },
+        {
+          "Name": "label",
+          "Value": "css/custom.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lVfMrJbovIwQ6ESJiopkW+F4OkVuHxFoXgTtqWEPA9o="
+        }
+      ]
+    },
     {
       "Route": "css/site.c2tiyv64ts.css",
       "AssetFile": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\css\\site.css",
@@ -5417,6 +5919,1564 @@
         {
           "Name": "integrity",
           "Value": "sha256-ZH6pA6BSx6fuHZvdaKph1DwUJ+VSYilIiEQu8ilnvqk="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ui/AUTHORS.72bi5bmqwh.txt",
+      "AssetFile": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\AUTHORS.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14848"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"geZ7JfVsTJq8Wgjrcm1p56Zqjxx7PL9FkxhKiN8dQg8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 00:00:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "72bi5bmqwh"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-ui/AUTHORS.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-geZ7JfVsTJq8Wgjrcm1p56Zqjxx7PL9FkxhKiN8dQg8="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ui/AUTHORS.txt",
+      "AssetFile": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\AUTHORS.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14848"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"geZ7JfVsTJq8Wgjrcm1p56Zqjxx7PL9FkxhKiN8dQg8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 00:00:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-geZ7JfVsTJq8Wgjrcm1p56Zqjxx7PL9FkxhKiN8dQg8="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ui/external/jquery/jquery.0i3buxo5is.js",
+      "AssetFile": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\external\\jquery\\jquery.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "285314"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 00:00:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0i3buxo5is"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-ui/external/jquery/jquery.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ui/external/jquery/jquery.js",
+      "AssetFile": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\external\\jquery\\jquery.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "285314"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 00:00:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ui/images/ui-icons_444444_256x240.png",
+      "AssetFile": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\images\\ui-icons_444444_256x240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6978"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jmTiXil6x3D/CHk8wOFXmTd0pX0pkL7CHEoZGDjDsD8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 00:00:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jmTiXil6x3D/CHk8wOFXmTd0pX0pkL7CHEoZGDjDsD8="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ui/images/ui-icons_444444_256x240.ut8nfkxbao.png",
+      "AssetFile": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\images\\ui-icons_444444_256x240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6978"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jmTiXil6x3D/CHk8wOFXmTd0pX0pkL7CHEoZGDjDsD8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 00:00:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ut8nfkxbao"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-ui/images/ui-icons_444444_256x240.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jmTiXil6x3D/CHk8wOFXmTd0pX0pkL7CHEoZGDjDsD8="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ui/images/ui-icons_555555_256x240.png",
+      "AssetFile": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\images\\ui-icons_555555_256x240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6985"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S7SAoCWRIFHhtJUmtILm35bW5c5XoJzAJHB1BymutlY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 00:00:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-S7SAoCWRIFHhtJUmtILm35bW5c5XoJzAJHB1BymutlY="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ui/images/ui-icons_555555_256x240.xxblgf7gh6.png",
+      "AssetFile": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\images\\ui-icons_555555_256x240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6985"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S7SAoCWRIFHhtJUmtILm35bW5c5XoJzAJHB1BymutlY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 00:00:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xxblgf7gh6"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-ui/images/ui-icons_555555_256x240.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-S7SAoCWRIFHhtJUmtILm35bW5c5XoJzAJHB1BymutlY="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ui/images/ui-icons_777620_256x240.ibfjxm80uw.png",
+      "AssetFile": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\images\\ui-icons_777620_256x240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4510"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"stIDtevUl3/YDzzX50pmD1KUQ5Ygr4Qf1mcAXth5i9Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 00:00:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ibfjxm80uw"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-ui/images/ui-icons_777620_256x240.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-stIDtevUl3/YDzzX50pmD1KUQ5Ygr4Qf1mcAXth5i9Q="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ui/images/ui-icons_777620_256x240.png",
+      "AssetFile": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\images\\ui-icons_777620_256x240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4510"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"stIDtevUl3/YDzzX50pmD1KUQ5Ygr4Qf1mcAXth5i9Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 00:00:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-stIDtevUl3/YDzzX50pmD1KUQ5Ygr4Qf1mcAXth5i9Q="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ui/images/ui-icons_777777_256x240.9pllrf5noz.png",
+      "AssetFile": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\images\\ui-icons_777777_256x240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7006"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4/cVCTlwyRuiyvZ9ZyZ5+tnUcgBBFx88uhJdE+TO1tc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 00:00:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9pllrf5noz"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-ui/images/ui-icons_777777_256x240.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4/cVCTlwyRuiyvZ9ZyZ5+tnUcgBBFx88uhJdE+TO1tc="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ui/images/ui-icons_777777_256x240.png",
+      "AssetFile": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\images\\ui-icons_777777_256x240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7006"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4/cVCTlwyRuiyvZ9ZyZ5+tnUcgBBFx88uhJdE+TO1tc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 00:00:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4/cVCTlwyRuiyvZ9ZyZ5+tnUcgBBFx88uhJdE+TO1tc="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ui/images/ui-icons_cc0000_256x240.fapn45i1fp.png",
+      "AssetFile": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\images\\ui-icons_cc0000_256x240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4510"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"x/fMbNPyGm4e1pbDDczRJW+nARxbL/1UQoUTrE8EuoA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 00:00:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fapn45i1fp"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-ui/images/ui-icons_cc0000_256x240.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-x/fMbNPyGm4e1pbDDczRJW+nARxbL/1UQoUTrE8EuoA="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ui/images/ui-icons_cc0000_256x240.png",
+      "AssetFile": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\images\\ui-icons_cc0000_256x240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4510"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"x/fMbNPyGm4e1pbDDczRJW+nARxbL/1UQoUTrE8EuoA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 00:00:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-x/fMbNPyGm4e1pbDDczRJW+nARxbL/1UQoUTrE8EuoA="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ui/images/ui-icons_ffffff_256x240.l6as84sroo.png",
+      "AssetFile": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\images\\ui-icons_ffffff_256x240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6403"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jTrat+ojs+EgNdn8x2+3nTJNFGErS5NQQTo4b/semhM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 00:00:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l6as84sroo"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-ui/images/ui-icons_ffffff_256x240.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jTrat+ojs+EgNdn8x2+3nTJNFGErS5NQQTo4b/semhM="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ui/images/ui-icons_ffffff_256x240.png",
+      "AssetFile": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\images\\ui-icons_ffffff_256x240.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6403"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jTrat+ojs+EgNdn8x2+3nTJNFGErS5NQQTo4b/semhM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 00:00:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jTrat+ojs+EgNdn8x2+3nTJNFGErS5NQQTo4b/semhM="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ui/index.2jvjnlz339.html",
+      "AssetFile": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32535"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ov7jFgQJzsGSk406OqyIQB3KNGoStimEZIdOr31IRGA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 00:00:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2jvjnlz339"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-ui/index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ov7jFgQJzsGSk406OqyIQB3KNGoStimEZIdOr31IRGA="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ui/index.html",
+      "AssetFile": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32535"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ov7jFgQJzsGSk406OqyIQB3KNGoStimEZIdOr31IRGA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 00:00:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ov7jFgQJzsGSk406OqyIQB3KNGoStimEZIdOr31IRGA="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ui/jquery-ui.3de1nhugwi.js",
+      "AssetFile": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\jquery-ui.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "521054"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9zljDKpE/mQxmaR4V2cGVaQ7arF3CcXxarvgr7Sj8Uc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 00:00:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3de1nhugwi"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-ui/jquery-ui.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9zljDKpE/mQxmaR4V2cGVaQ7arF3CcXxarvgr7Sj8Uc="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ui/jquery-ui.css",
+      "AssetFile": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\jquery-ui.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36407"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"83pSirg3po0U8iicAqzItE9Ei7Ke+Y926v/NWwaq+xs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 00:00:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-83pSirg3po0U8iicAqzItE9Ei7Ke+Y926v/NWwaq+xs="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ui/jquery-ui.js",
+      "AssetFile": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\jquery-ui.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "521054"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9zljDKpE/mQxmaR4V2cGVaQ7arF3CcXxarvgr7Sj8Uc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 00:00:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9zljDKpE/mQxmaR4V2cGVaQ7arF3CcXxarvgr7Sj8Uc="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ui/jquery-ui.min.css",
+      "AssetFile": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\jquery-ui.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31415"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BZzC0trQoV17OTuLkPiMVQ8mYf05J/hEN+ls36embMw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 00:00:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BZzC0trQoV17OTuLkPiMVQ8mYf05J/hEN+ls36embMw="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ui/jquery-ui.min.if5udyg90s.js",
+      "AssetFile": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\jquery-ui.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "252957"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AlTido85uXPlSyyaZNsjJXeCs07eSv3r43kyCVc8ChI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 00:00:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "if5udyg90s"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-ui/jquery-ui.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AlTido85uXPlSyyaZNsjJXeCs07eSv3r43kyCVc8ChI="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ui/jquery-ui.min.js",
+      "AssetFile": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\jquery-ui.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "252957"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AlTido85uXPlSyyaZNsjJXeCs07eSv3r43kyCVc8ChI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 00:00:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AlTido85uXPlSyyaZNsjJXeCs07eSv3r43kyCVc8ChI="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ui/jquery-ui.min.xlfsqd798a.css",
+      "AssetFile": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\jquery-ui.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31415"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BZzC0trQoV17OTuLkPiMVQ8mYf05J/hEN+ls36embMw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 00:00:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xlfsqd798a"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-ui/jquery-ui.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BZzC0trQoV17OTuLkPiMVQ8mYf05J/hEN+ls36embMw="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ui/jquery-ui.nr5zftr3vh.css",
+      "AssetFile": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\jquery-ui.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36407"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"83pSirg3po0U8iicAqzItE9Ei7Ke+Y926v/NWwaq+xs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 00:00:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nr5zftr3vh"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-ui/jquery-ui.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-83pSirg3po0U8iicAqzItE9Ei7Ke+Y926v/NWwaq+xs="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ui/jquery-ui.structure.css",
+      "AssetFile": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\jquery-ui.structure.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18053"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z2eOPbnIw179GsUMSPP9kSieuFr1DuLyvAfZcmTngho=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 00:00:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Z2eOPbnIw179GsUMSPP9kSieuFr1DuLyvAfZcmTngho="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ui/jquery-ui.structure.min.0avc6en0p3.css",
+      "AssetFile": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\jquery-ui.structure.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15109"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WFe3Ac5JObwyT2ZhpqVZOTTiUy0J/TchbEH/9VuNaWc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 00:00:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0avc6en0p3"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-ui/jquery-ui.structure.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WFe3Ac5JObwyT2ZhpqVZOTTiUy0J/TchbEH/9VuNaWc="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ui/jquery-ui.structure.min.css",
+      "AssetFile": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\jquery-ui.structure.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15109"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WFe3Ac5JObwyT2ZhpqVZOTTiUy0J/TchbEH/9VuNaWc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 00:00:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WFe3Ac5JObwyT2ZhpqVZOTTiUy0J/TchbEH/9VuNaWc="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ui/jquery-ui.structure.xmuqfn50qh.css",
+      "AssetFile": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\jquery-ui.structure.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18053"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z2eOPbnIw179GsUMSPP9kSieuFr1DuLyvAfZcmTngho=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 00:00:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xmuqfn50qh"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-ui/jquery-ui.structure.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Z2eOPbnIw179GsUMSPP9kSieuFr1DuLyvAfZcmTngho="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ui/jquery-ui.theme.css",
+      "AssetFile": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\jquery-ui.theme.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18409"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JIhmxvw5Wi3vZ1oSuOWNGzYHUe286tslxK1LOGrVYeY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 00:00:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JIhmxvw5Wi3vZ1oSuOWNGzYHUe286tslxK1LOGrVYeY="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ui/jquery-ui.theme.min.8kjarcocxj.css",
+      "AssetFile": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\jquery-ui.theme.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13708"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eFOzUgdhGLmqPH32Z1JdslFUpfivdPRTBd1MzTVGEks=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 00:00:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8kjarcocxj"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-ui/jquery-ui.theme.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eFOzUgdhGLmqPH32Z1JdslFUpfivdPRTBd1MzTVGEks="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ui/jquery-ui.theme.min.css",
+      "AssetFile": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\jquery-ui.theme.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13708"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eFOzUgdhGLmqPH32Z1JdslFUpfivdPRTBd1MzTVGEks=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 00:00:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eFOzUgdhGLmqPH32Z1JdslFUpfivdPRTBd1MzTVGEks="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ui/jquery-ui.theme.s0k6h7qcks.css",
+      "AssetFile": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\jquery-ui.theme.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18409"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JIhmxvw5Wi3vZ1oSuOWNGzYHUe286tslxK1LOGrVYeY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 00:00:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s0k6h7qcks"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-ui/jquery-ui.theme.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JIhmxvw5Wi3vZ1oSuOWNGzYHUe286tslxK1LOGrVYeY="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ui/LICENSE.mtq9ih5pls.txt",
+      "AssetFile": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\LICENSE.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1818"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9kkCXPZcjc2FiLCTeIO6elK9ttNRKUZKNqFgLrACUPE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 00:00:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mtq9ih5pls"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-ui/LICENSE.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9kkCXPZcjc2FiLCTeIO6elK9ttNRKUZKNqFgLrACUPE="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ui/LICENSE.txt",
+      "AssetFile": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\LICENSE.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1818"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9kkCXPZcjc2FiLCTeIO6elK9ttNRKUZKNqFgLrACUPE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 00:00:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9kkCXPZcjc2FiLCTeIO6elK9ttNRKUZKNqFgLrACUPE="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ui/package.json",
+      "AssetFile": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\package.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2122"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AvCATruWzbwY7NsfzcUR2WqPjslGO8M7hHzTj1AYDQY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 00:00:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AvCATruWzbwY7NsfzcUR2WqPjslGO8M7hHzTj1AYDQY="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ui/package.qaocao8vyd.json",
+      "AssetFile": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\package.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2122"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AvCATruWzbwY7NsfzcUR2WqPjslGO8M7hHzTj1AYDQY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 00:00:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qaocao8vyd"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-ui/package.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AvCATruWzbwY7NsfzcUR2WqPjslGO8M7hHzTj1AYDQY="
         }
       ]
     },

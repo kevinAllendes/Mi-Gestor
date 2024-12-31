@@ -12,7 +12,7 @@ namespace Gestor.Models{
         
         /* Aplicando Validaciones desde el modelo. Recordar siempre aplicar Model.State para verificar desde el controlador
         Que el modelo sea valido */
-        public int id {get; set;}
+        public int Id {get; set;}
 
         [Required (ErrorMessage ="El campo Nombre debe ingresarse")]
         /* Usamos la validacion prediseñada */

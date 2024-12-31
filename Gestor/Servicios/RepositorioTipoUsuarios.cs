@@ -9,6 +9,8 @@ namespace Gestor.Servicios
     {
         bool BuscarUsuario(TipoUsuarios usuarios);
 
+        int ObtenerUsuarioId();
+
     }
 
     public class RepositorioTipoUsuarios : IRepositorioUsuarios
@@ -23,6 +25,12 @@ namespace Gestor.Servicios
         {
             return usuario.nombreUsuario == "Kevin" && usuario.Password == "1234";
             
+        }
+
+        public int ObtenerUsuarioId()
+        //En contruccion: Este metodo nos dara el id del usuario que esta usando la aplicacion
+        {
+            return 1;
         }
     }
 

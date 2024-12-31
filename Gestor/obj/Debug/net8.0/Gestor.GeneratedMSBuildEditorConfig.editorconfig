@@ -24,6 +24,10 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[c:/Users/a89214/Documents/GitHub/Mi-Gestor/Gestor/Views/Home/NoEncontrado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOb0VuY29udHJhZG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [c:/Users/a89214/Documents/GitHub/Mi-Gestor/Gestor/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -40,8 +44,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb3NDdWVudGFzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[c:/Users/a89214/Documents/GitHub/Mi-Gestor/Gestor/Views/TiposCuentas/Borrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb3NDdWVudGFzXEJvcnJhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [c:/Users/a89214/Documents/GitHub/Mi-Gestor/Gestor/Views/TiposCuentas/Crear.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb3NDdWVudGFzXENyZWFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/a89214/Documents/GitHub/Mi-Gestor/Gestor/Views/TiposCuentas/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb3NDdWVudGFzXEVkaXRhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [c:/Users/a89214/Documents/GitHub/Mi-Gestor/Gestor/Views/TiposCuentas/IndiceDeCuentas.cshtml]

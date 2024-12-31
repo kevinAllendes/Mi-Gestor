@@ -15,19 +15,57 @@
                 <th>Nombre</th>
             </tr>
         </thead>
-        <tbody>
-            @foreach (var TipoCuenta in Model)
+        <tbody id="reordenable">
+            @foreach (var tipoCuenta in Model)
             {
                 <tr>
                     <td>
-                        <a class="btn btn-primary">Editar</a>
-                        <a class="btn btn-secondary">Borrar</a>
+                        <!-- obtengo los id de manera rapida para luego reordenar -->
+                        <input type="hidden" value="@tipoCuenta.Id" class="ids" />
+                        <a class="btn btn-primary" asp-action="Editar" asp-route-id="@tipoCuenta.Id">Editar</a>
+                        <a class="btn btn-secondary" asp-action="Borrar" asp-route-id="@tipoCuenta.Id">Borrar</a>
                     </td>
                     <td>
-                        @TipoCuenta.Nombre;
+                        @tipoCuenta.Nombre
                     </td>
                 </tr>
             }
         </tbody>
 
     </table>
+<!-- Utilizamos la libreria Jquery.ui para que las filas del listado puedan modificarse en su orden
+    No olivdar que vamos a modificarse tambien El css de dichas filas con el Custom.cs-->
+@section Scripts{
+    <script>
+        const urlOrdenar = '@Url.Action("ordenar")';
+        $(function(){
+            $("#reordenable").sortable({
+                stop:async function(e,ui){
+                    await actualizarOrdenes();
+                }
+            });
+            async function actualizarOrdenes(){
+                const ids =obtenerIdsElementos();
+                await enviarIdsAlBackEnd(ids);
+            }
+            function obtenerIdsElementos(){
+                const ids =$(".ids").map(function){//referenciamos a la clase ids
+                    return $(this).val();
+                    }).get();
+                    return ids;
+                }
+            }
+
+            function enviarIdsAlBackEnd(ids){
+                var data = JSON.stringify(ids);
+                await fetch(urlOrdenar,{
+                    method:'POST',
+                    body:data,
+                    headers:{
+                        'Content-Type : application/json'
+                    }
+                });
+            }
+        })
+    </script>
+}

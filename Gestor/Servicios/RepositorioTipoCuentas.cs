@@ -14,6 +14,12 @@ namespace Gestor.Servicios
 
         //Metodo provisorio para usuar en el trabajo
         IEnumerable<TipoCuenta> obtenerCuentasSinBDD(int usario);
+
+        Task Actualizar(TipoCuenta tipoCuenta);
+
+        Task<TipoCuenta> ObtenerPorId(int id, int usuarioID);
+
+        Task Borrar(int Id);
     }
 
     public class RepositorioTipoCuentas: IRepositorioTipoCuentas
@@ -40,7 +46,7 @@ namespace Gestor.Servicios
             var id = await connection.QuerySingleAsync<int>($@"INSERT INTO TiposCuentas (Nombre, UsuarioId, Orden) 
                                                     Values (@Nombre, @UsuarioId, 0);
                                                     SELECT SCOPE_IDENTITY();", miCuenta);
-            miCuenta.id = id;
+            miCuenta.Id = id;
         }
 
         //Metodo que nos indica si existe un tipo cuenta dentro de la contabilidad del usario
@@ -76,5 +82,29 @@ namespace Gestor.Servicios
             misCuentas.Add(cuenta3);
             return misCuentas;
         }
+
+        /*Metodo para actualizar un tipo cuentas*/
+        public async Task Actualizar(TipoCuenta tipoCuenta)
+        {
+            using var connection =  new SqlConnection(connectionString);
+            await connection.ExecuteAsync(@"UPDATE TiposCuentas SET Nombre = @Nombre 
+                                            WHERE Id=@Id", tipoCuenta);
+        }
+
+        /*Metodo que devuelve un tipo cuentas de la tabla en base a su id y al id del usuario que esta trabajando*/
+        public async Task<TipoCuenta> ObtenerPorId(int id,  int usuarioId)
+        {
+            using var connection = new SqlConnection(connectionString);
+            return await connection.QueryFirstOrDefaultAsync<TipoCuenta>(@"SELECT Id, Nombre, Orden 
+            FROM TiposCuentas WHERE Id=@Id AND UsuarioId = @UsuarioId", new {id,usuarioId});
+        }
+
+        public async Task Borrar(int Id)
+        {
+            using var connection = new SqlConnection(connectionString);
+            await connection.ExecuteAsync(@"DELETE TiposCuentas WHERE Id=@Id", new {Id});
+        }
+
+
     }
 }

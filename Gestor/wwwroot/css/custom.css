@@ -1,0 +1,4 @@
+#reordenable tr{
+    cursor: move;
+    border-bottom: 1px;
+}
