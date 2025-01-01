@@ -8,7 +8,7 @@
 <h5> El tipo de cuenta se refiere a como podemos agrupar las cuentas
     Ejemplo: Prestamos,  tarjetas, etc.</h5>
     <a asp-action="Crear" class="btn btn-primary mb-3">Crear nuevo</a>
-    <table class="=table">
+    <table class="table">
         <thead>
             <tr>
                 <th>Acciones</th>
@@ -16,17 +16,17 @@
             </tr>
         </thead>
         <tbody id="reordenable">
-            @foreach (var tipoCuenta in Model)
+            @foreach (var cuenta in Model)
             {
                 <tr>
                     <td>
                         <!-- obtengo los id de manera rapida para luego reordenar -->
-                        <input type="hidden" value="@tipoCuenta.Id" class="ids" />
-                        <a class="btn btn-primary" asp-action="Editar" asp-route-id="@tipoCuenta.Id">Editar</a>
-                        <a class="btn btn-secondary" asp-action="Borrar" asp-route-id="@tipoCuenta.Id">Borrar</a>
+                        <input type="hidden" value="@cuenta.Id" class="ids" />
+                        <a class="btn btn-primary" asp-action="Editar" asp-route-id="@cuenta.Id">Editar</a>
+                        <a class="btn btn-secondary" asp-action="Borrar" asp-route-id="@cuenta.Id">Borrar</a>
                     </td>
                     <td>
-                        @tipoCuenta.Nombre
+                        @cuenta.Nombre
                     </td>
                 </tr>
             }
@@ -35,34 +35,35 @@
     </table>
 <!-- Utilizamos la libreria Jquery.ui para que las filas del listado puedan modificarse en su orden
     No olivdar que vamos a modificarse tambien El css de dichas filas con el Custom.cs-->
-@section Scripts{
+@section Scripts {
     <script>
-        const urlOrdenar = '@Url.Action("ordenar")';
+        const urlOrdenar = Url.Action("ordenar");
         $(function(){
             $("#reordenable").sortable({
-                stop:async function(e,ui){
+                stop: async function(e,ui){
                     await actualizarOrdenes();
                 }
             });
             async function actualizarOrdenes(){
-                const ids =obtenerIdsElementos();
+                const ids = obtenerIdsElementos();
                 await enviarIdsAlBackEnd(ids);
             }
-            function obtenerIdsElementos(){
-                const ids =$(".ids").map(function){//referenciamos a la clase ids
-                    return $(this).val();
+            async function obtenerIdsElementos(){
+                const ids =$(".ids").map(function){
+                        return $(this).val();
                     }).get();
+
                     return ids;
-                }
             }
 
-            function enviarIdsAlBackEnd(ids){
+            async function enviarIdsAlBackEnd(ids){
                 var data = JSON.stringify(ids);
+
                 await fetch(urlOrdenar,{
-                    method:'POST',
-                    body:data,
-                    headers:{
-                        'Content-Type : application/json'
+                    method: 'POST',
+                    body: data,
+                    headers : {
+                        'Content-Type' : 'application/json'
                     }
                 });
             }

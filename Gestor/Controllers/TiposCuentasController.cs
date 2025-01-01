@@ -21,9 +21,8 @@ namespace Gestor.Controllers{
         public async Task<IActionResult> IndiceDeCuentas()
         {
             var usuarioID = repositorioUsuarios.ObtenerUsuarioId();
-            var TiposCuentas = repositorioTipoCuentas.obtenerCuentasSinBDD(usuarioID);
-            //var TiposCuentas = await repositorioTipoCuentas.Obtener(usuarioID);
-            return View(TiposCuentas);
+            var misCuentas = await repositorioTipoCuentas.Obtener(usuarioID);
+            return View(misCuentas);
         }
         public IActionResult Crear()
         {
@@ -46,7 +45,7 @@ namespace Gestor.Controllers{
             
             /*Verifico que el tipo de cuenta no existe. Si existe mandamos un error de modelo*/
             var existe = await repositorioTipoCuentas.Existe(miCuenta.Nombre,miCuenta.UsuarioId);
-            if(!existe)
+            if(existe)
             {
                 //Enviamos el error a nivel de modelo
                 ModelState.AddModelError(nameof(TipoCuenta.Nombre),
@@ -56,7 +55,7 @@ namespace Gestor.Controllers{
             }
             await repositorioTipoCuentas.Crear(miCuenta);
 
-            return View();
+            return RedirectToAction("IndiceDeCuentas");
         }
 
         /* 
@@ -76,21 +75,24 @@ namespace Gestor.Controllers{
             return Json(true);
         }
         
-        //Defino un metodo que me permita editar una cuenta
+        /*
+            Defino un metodo que me permita editar una cuenta
+            Este metodo tiene que estar definido con ActionResult
+         */
         [HttpGet]
-        public async Task<IActionResult> Editar(int idCuentaAEditar)
+        public async Task<ActionResult> Editar(int id)
         {
             var usuarioId = repositorioUsuarios.ObtenerUsuarioId();
-            var tipoCuenta = await repositorioTipoCuentas.ObtenerPorId(idCuentaAEditar,usuarioId);
+            var tipoCuenta = await repositorioTipoCuentas.ObtenerPorId(id,usuarioId);
              if (tipoCuenta is null)
              {
-                return RedirectToAction("No Encontrado","Home");
+                return RedirectToAction("NoEncontrado","Home");
              }
              return View(tipoCuenta);
         }
 
         [HttpPost]
-        public async Task<IActionResult> Editar(TipoCuenta tipoCuenta)
+        public async Task<ActionResult> Editar(TipoCuenta tipoCuenta)
         {
             var usuarioId =  repositorioUsuarios.ObtenerUsuarioId();
             //Verifico un modelo valido
@@ -138,6 +140,26 @@ namespace Gestor.Controllers{
             return RedirectToAction("IndiceDeCuentas");
         }
 
+        [HttpPost]
+        public async Task<IActionResult> Ordenar([FromBody] int[] ids)
+        {
+            var usuarioId = repositorioUsuarios.ObtenerUsuarioId();
+            var tiposCuentas = await repositorioTipoCuentas.Obtener(usuarioId);
+            //Extraigo los ids de la BDD
+            var idsTiposCuentas = tiposCuentas.Select(x => x.Id);
+            //Obtengo los ordenes nuevos
+            var idsTiposCuentasNoPertenecenAlUsuario = ids.Except(idsTiposCuentas).ToList();
+
+            if (idsTiposCuentasNoPertenecenAlUsuario.Count() > 0)
+            {
+
+                return Forbid();
+            }
+            var tiposCuentasOrdenados =  ids.Select((valor, indice) =>
+                new TipoCuenta() { Id = valor, Orden = indice+1}).AsEnumerable();
+            await repositorioTipoCuentas.Ordenar(tiposCuentasOrdenados);
+            return Ok();
+        }
 
 
 
