@@ -7,76 +7,8 @@
       "RelativeMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|solutionrelative:gestor\\servicios\\repositoriocuentas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|c:\\users\\kevin\\documents\\github\\mi-gestor\\gestor\\controllers\\cuentascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|solutionrelative:gestor\\controllers\\cuentascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|c:\\users\\kevin\\documents\\github\\mi-gestor\\gestor\\views\\cuentas\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|solutionrelative:gestor\\views\\cuentas\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|c:\\users\\kevin\\documents\\github\\mi-gestor\\gestor\\models\\cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|solutionrelative:gestor\\models\\cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|c:\\users\\kevin\\documents\\github\\mi-gestor\\gestor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|solutionrelative:gestor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|c:\\users\\kevin\\documents\\github\\mi-gestor\\gestor\\models\\cuentacreacionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|solutionrelative:gestor\\models\\cuentacreacionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|c:\\users\\kevin\\documents\\github\\mi-gestor\\gestor\\views\\tiposcuentas\\indicedecuentas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|solutionrelative:gestor\\views\\tiposcuentas\\indicedecuentas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|c:\\users\\kevin\\documents\\github\\mi-gestor\\gestor\\servicios\\repositoriotipocuentas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|solutionrelative:gestor\\servicios\\repositoriotipocuentas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|c:\\users\\kevin\\documents\\github\\mi-gestor\\gestor\\controllers\\tiposcuentascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|solutionrelative:gestor\\controllers\\tiposcuentascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|c:\\users\\kevin\\documents\\github\\mi-gestor\\gestor\\views\\tipousuarios\\loginusuarios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|solutionrelative:gestor\\views\\tipousuarios\\loginusuarios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|c:\\users\\kevin\\documents\\github\\mi-gestor\\gestor\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|solutionrelative:gestor\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|c:\\users\\kevin\\documents\\github\\mi-gestor\\gestor\\wwwroot\\css\\custom.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|solutionrelative:gestor\\wwwroot\\css\\custom.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|c:\\users\\kevin\\documents\\github\\mi-gestor\\gestor\\models\\tipotareas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|solutionrelative:gestor\\models\\tipotareas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|c:\\users\\kevin\\documents\\github\\mi-gestor\\gestor\\models\\tipousuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|solutionrelative:gestor\\models\\tipousuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|c:\\users\\kevin\\documents\\github\\mi-gestor\\gestor\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|solutionrelative:gestor\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|c:\\users\\kevin\\documents\\github\\mi-gestor\\gestor\\models\\tipoestados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|solutionrelative:gestor\\models\\tipoestados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|c:\\users\\kevin\\documents\\github\\mi-gestor\\gestor\\views\\home\\noencontrado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|solutionrelative:gestor\\views\\home\\noencontrado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|c:\\users\\kevin\\documents\\github\\mi-gestor\\gestor\\gestor.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|solutionrelative:gestor\\gestor.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|c:\\users\\kevin\\documents\\github\\mi-gestor\\gestor\\models\\tipopermisos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|solutionrelative:gestor\\models\\tipopermisos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|c:\\users\\kevin\\documents\\github\\mi-gestor\\gestor\\views\\cuentas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|solutionrelative:gestor\\views\\cuentas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,21 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Program.cs",
-              "RelativeDocumentMoniker": "Gestor\\Program.cs",
-              "ToolTip": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Program.cs",
-              "RelativeToolTip": "Gestor\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T07:05:51.976Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -109,229 +28,23 @@
               "RelativeDocumentMoniker": "Gestor\\Servicios\\RepositorioCuentas.cs",
               "ToolTip": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Servicios\\RepositorioCuentas.cs",
               "RelativeToolTip": "Gestor\\Servicios\\RepositorioCuentas.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA5wBgAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAuwDIAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T06:39:11.892Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Crear.cshtml",
-              "DocumentMoniker": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Views\\Cuentas\\Crear.cshtml",
-              "RelativeDocumentMoniker": "Gestor\\Views\\Cuentas\\Crear.cshtml",
-              "ToolTip": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Views\\Cuentas\\Crear.cshtml",
-              "RelativeToolTip": "Gestor\\Views\\Cuentas\\Crear.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-01T06:22:18.923Z",
+              "WhenOpened": "2025-01-02T07:17:00.535Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CuentasController.cs",
-              "DocumentMoniker": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Controllers\\CuentasController.cs",
-              "RelativeDocumentMoniker": "Gestor\\Controllers\\CuentasController.cs",
-              "ToolTip": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Controllers\\CuentasController.cs",
-              "RelativeToolTip": "Gestor\\Controllers\\CuentasController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAAACoAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T06:15:01.681Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CuentaCreacionViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Models\\CuentaCreacionViewModel.cs",
-              "RelativeDocumentMoniker": "Gestor\\Models\\CuentaCreacionViewModel.cs",
-              "ToolTip": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Models\\CuentaCreacionViewModel.cs",
-              "RelativeToolTip": "Gestor\\Models\\CuentaCreacionViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T06:13:51.931Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Cuenta.cs",
-              "DocumentMoniker": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Models\\Cuenta.cs",
-              "RelativeDocumentMoniker": "Gestor\\Models\\Cuenta.cs",
-              "ToolTip": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Models\\Cuenta.cs",
-              "RelativeToolTip": "Gestor\\Models\\Cuenta.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwA8AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T06:10:05.44Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IndiceDeCuentas.cshtml",
-              "DocumentMoniker": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Views\\TiposCuentas\\IndiceDeCuentas.cshtml",
-              "RelativeDocumentMoniker": "Gestor\\Views\\TiposCuentas\\IndiceDeCuentas.cshtml",
-              "ToolTip": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Views\\TiposCuentas\\IndiceDeCuentas.cshtml",
-              "RelativeToolTip": "Gestor\\Views\\TiposCuentas\\IndiceDeCuentas.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAZAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Views\\Cuentas\\Index.cshtml",
+              "RelativeDocumentMoniker": "Gestor\\Views\\Cuentas\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Views\\Cuentas\\Index.cshtml",
+              "RelativeToolTip": "Gestor\\Views\\Cuentas\\Index.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAqwEkAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-31T22:58:57.516Z",
+              "WhenOpened": "2025-01-01T21:05:59.045Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RepositorioTipoCuentas.cs",
-              "DocumentMoniker": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Servicios\\RepositorioTipoCuentas.cs",
-              "RelativeDocumentMoniker": "Gestor\\Servicios\\RepositorioTipoCuentas.cs",
-              "ToolTip": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Servicios\\RepositorioTipoCuentas.cs",
-              "RelativeToolTip": "Gestor\\Servicios\\RepositorioTipoCuentas.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAvwCgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T21:51:28.609Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "TipoUsuarios.cs",
-              "DocumentMoniker": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Models\\TipoUsuarios.cs",
-              "RelativeDocumentMoniker": "Gestor\\Models\\TipoUsuarios.cs",
-              "ToolTip": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Models\\TipoUsuarios.cs",
-              "RelativeToolTip": "Gestor\\Models\\TipoUsuarios.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T15:45:33.139Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "LogInUsuarios.cshtml",
-              "DocumentMoniker": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Views\\TipoUsuarios\\LogInUsuarios.cshtml",
-              "RelativeDocumentMoniker": "Gestor\\Views\\TipoUsuarios\\LogInUsuarios.cshtml",
-              "ToolTip": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Views\\TipoUsuarios\\LogInUsuarios.cshtml",
-              "RelativeToolTip": "Gestor\\Views\\TipoUsuarios\\LogInUsuarios.cshtml",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAswBAAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-24T15:31:05.103Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TiposCuentasController.cs",
-              "DocumentMoniker": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Controllers\\TiposCuentasController.cs",
-              "RelativeDocumentMoniker": "Gestor\\Controllers\\TiposCuentasController.cs",
-              "ToolTip": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Controllers\\TiposCuentasController.cs",
-              "RelativeToolTip": "Gestor\\Controllers\\TiposCuentasController.cs",
-              "ViewState": "AgIAAIsAAAAAAAAAAAAuwDkAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T22:22:17.433Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Gestor\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Gestor\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB4AAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-01T05:12:03.721Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "custom.css",
-              "DocumentMoniker": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\css\\custom.css",
-              "RelativeDocumentMoniker": "Gestor\\wwwroot\\css\\custom.css",
-              "ToolTip": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\css\\custom.css",
-              "RelativeToolTip": "Gestor\\wwwroot\\css\\custom.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-01-01T05:09:27.975Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "TipoTareas.cs",
-              "DocumentMoniker": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Models\\TipoTareas.cs",
-              "RelativeDocumentMoniker": "Gestor\\Models\\TipoTareas.cs",
-              "ToolTip": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Models\\TipoTareas.cs",
-              "RelativeToolTip": "Gestor\\Models\\TipoTareas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T15:45:29.713Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Gestor\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Gestor\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T23:08:22.277Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "TipoEstados.cs",
-              "DocumentMoniker": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Models\\TipoEstados.cs",
-              "RelativeDocumentMoniker": "Gestor\\Models\\TipoEstados.cs",
-              "ToolTip": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Models\\TipoEstados.cs",
-              "RelativeToolTip": "Gestor\\Models\\TipoEstados.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T15:45:16.477Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "NoEncontrado.cshtml",
-              "DocumentMoniker": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Views\\Home\\NoEncontrado.cshtml",
-              "RelativeDocumentMoniker": "Gestor\\Views\\Home\\NoEncontrado.cshtml",
-              "ToolTip": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Views\\Home\\NoEncontrado.cshtml",
-              "RelativeToolTip": "Gestor\\Views\\Home\\NoEncontrado.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-31T23:10:08.75Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Gestor.csproj",
-              "DocumentMoniker": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Gestor.csproj",
-              "RelativeDocumentMoniker": "Gestor\\Gestor.csproj",
-              "ToolTip": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Gestor.csproj",
-              "RelativeToolTip": "Gestor\\Gestor.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-23T16:05:38.78Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "TipoPermisos.cs",
-              "DocumentMoniker": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Models\\TipoPermisos.cs",
-              "RelativeDocumentMoniker": "Gestor\\Models\\TipoPermisos.cs",
-              "ToolTip": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Models\\TipoPermisos.cs",
-              "RelativeToolTip": "Gestor\\Models\\TipoPermisos.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T15:45:25.941Z"
             }
           ]
         }

@@ -1,3 +1,11 @@
 #reordenable tr{
     cursor: move;
 }
+
+.contenedor-totales{
+    display: flex;
+    justify-content: space-around;
+    font-size: 26px;
+    text-align: center;
+}
+

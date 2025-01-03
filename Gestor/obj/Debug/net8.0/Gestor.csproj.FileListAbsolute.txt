@@ -145,3 +145,4 @@ C:\Users\Kevin\Documents\GitHub\Mi-Gestor\Gestor\bin\Debug\net8.0\Gestor.staticw
 C:\Users\Kevin\Documents\GitHub\Mi-Gestor\Gestor\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\Kevin\Documents\GitHub\Mi-Gestor\Gestor\obj\Debug\net8.0\staticwebassets\msbuild.Gestor.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 C:\Users\Kevin\Documents\GitHub\Mi-Gestor\Gestor\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Kevin\Documents\GitHub\Mi-Gestor\Gestor\obj\Debug\net8.0\scopedcss\Views\Cuentas\Index.cshtml.rz.scp.css

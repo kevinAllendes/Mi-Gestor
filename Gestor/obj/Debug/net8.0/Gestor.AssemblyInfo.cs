@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Gestor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+95e0d72420faac64421d00ab1e193315caeed7c7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2640798fcd0f392c1729108c0d62efed578a9910")]
 [assembly: System.Reflection.AssemblyProductAttribute("Gestor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Gestor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

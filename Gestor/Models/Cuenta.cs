@@ -16,6 +16,9 @@ namespace Gestor.Models
         
         [StringLength(maximumLength:1000)]
         public string Descripcion { get; set; }
+        
+        //Propiedad que hablia del nombre del tipo cuenta que representa
+        public string TipoCuenta { get; set; }
 
     }
 }

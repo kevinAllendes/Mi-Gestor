@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QtaZ37G2tirqNeYPKUhW6jhoOeW/Cv44vH3nEniy3cQ=",
+  "Hash": "Oeejc5JVg+lxMB1SblUcMZlnYk7N/yz3AQPOEcRl6us=",
   "Source": "Gestor",
   "BasePath": "_content/Gestor",
   "Mode": "Default",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "luy3p7xtmh",
-      "Integrity": "06eJlwvZwp2sbI2oOu9uBWfZYjGmO7COL6LWgKYO6f0=",
+      "Fingerprint": "ajr965tbey",
+      "Integrity": "WoLyydTOS1PGCQ8q89zRIGZTI29kW6fXYu/U4eOzBGs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Gestor.styles.css"
@@ -52,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "luy3p7xtmh",
-      "Integrity": "06eJlwvZwp2sbI2oOu9uBWfZYjGmO7COL6LWgKYO6f0=",
+      "Fingerprint": "ajr965tbey",
+      "Integrity": "WoLyydTOS1PGCQ8q89zRIGZTI29kW6fXYu/U4eOzBGs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Gestor.bundle.scp.css"
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "pqnk86hfjs",
-      "Integrity": "MWW0qmZ7sKgDEXXbmdcnzV32UFBoUjx0kEin27m0yoc=",
+      "Fingerprint": "jfu0dab6tr",
+      "Integrity": "8aCzeizLvaGlPBU+wsJMdTXRoNkxuVEebsxbSfiFbMI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\custom.css"
@@ -1751,7 +1751,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "38"
+          "Value": "172"
         },
         {
           "Name": "Content-Type",
@@ -1759,11 +1759,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"MWW0qmZ7sKgDEXXbmdcnzV32UFBoUjx0kEin27m0yoc=\""
+          "Value": "\"8aCzeizLvaGlPBU+wsJMdTXRoNkxuVEebsxbSfiFbMI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 01 Jan 2025 05:09:42 GMT"
+          "Value": "Thu, 02 Jan 2025 06:49:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1773,12 +1773,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-MWW0qmZ7sKgDEXXbmdcnzV32UFBoUjx0kEin27m0yoc="
+          "Value": "sha256-8aCzeizLvaGlPBU+wsJMdTXRoNkxuVEebsxbSfiFbMI="
         }
       ]
     },
     {
-      "Route": "css/custom.pqnk86hfjs.css",
+      "Route": "css/custom.jfu0dab6tr.css",
       "AssetFile": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\css\\custom.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1788,7 +1788,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "38"
+          "Value": "172"
         },
         {
           "Name": "Content-Type",
@@ -1796,11 +1796,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"MWW0qmZ7sKgDEXXbmdcnzV32UFBoUjx0kEin27m0yoc=\""
+          "Value": "\"8aCzeizLvaGlPBU+wsJMdTXRoNkxuVEebsxbSfiFbMI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 01 Jan 2025 05:09:42 GMT"
+          "Value": "Thu, 02 Jan 2025 06:49:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1810,7 +1810,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "pqnk86hfjs"
+          "Value": "jfu0dab6tr"
         },
         {
           "Name": "label",
@@ -1818,7 +1818,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-MWW0qmZ7sKgDEXXbmdcnzV32UFBoUjx0kEin27m0yoc="
+          "Value": "sha256-8aCzeizLvaGlPBU+wsJMdTXRoNkxuVEebsxbSfiFbMI="
         }
       ]
     },
@@ -1987,6 +1987,96 @@
       ]
     },
     {
+      "Route": "Gestor.ajr965tbey.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Gestor.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1711"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WoLyydTOS1PGCQ8q89zRIGZTI29kW6fXYu/U4eOzBGs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Jan 2025 06:50:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ajr965tbey"
+        },
+        {
+          "Name": "label",
+          "Value": "Gestor.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WoLyydTOS1PGCQ8q89zRIGZTI29kW6fXYu/U4eOzBGs="
+        }
+      ]
+    },
+    {
+      "Route": "Gestor.ajr965tbey.styles.css",
+      "AssetFile": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Gestor.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1711"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WoLyydTOS1PGCQ8q89zRIGZTI29kW6fXYu/U4eOzBGs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Jan 2025 06:50:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ajr965tbey"
+        },
+        {
+          "Name": "label",
+          "Value": "Gestor.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WoLyydTOS1PGCQ8q89zRIGZTI29kW6fXYu/U4eOzBGs="
+        }
+      ]
+    },
+    {
       "Route": "Gestor.bundle.scp.css",
       "AssetFile": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Gestor.bundle.scp.css",
       "Selectors": [],
@@ -1997,7 +2087,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1124"
+          "Value": "1711"
         },
         {
           "Name": "Content-Type",
@@ -2005,11 +2095,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"06eJlwvZwp2sbI2oOu9uBWfZYjGmO7COL6LWgKYO6f0=\""
+          "Value": "\"WoLyydTOS1PGCQ8q89zRIGZTI29kW6fXYu/U4eOzBGs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 23 Sep 2024 15:48:00 GMT"
+          "Value": "Thu, 02 Jan 2025 06:50:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2019,97 +2109,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-06eJlwvZwp2sbI2oOu9uBWfZYjGmO7COL6LWgKYO6f0="
-        }
-      ]
-    },
-    {
-      "Route": "Gestor.luy3p7xtmh.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Gestor.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1124"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"06eJlwvZwp2sbI2oOu9uBWfZYjGmO7COL6LWgKYO6f0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 23 Sep 2024 15:48:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "luy3p7xtmh"
-        },
-        {
-          "Name": "label",
-          "Value": "Gestor.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-06eJlwvZwp2sbI2oOu9uBWfZYjGmO7COL6LWgKYO6f0="
-        }
-      ]
-    },
-    {
-      "Route": "Gestor.luy3p7xtmh.styles.css",
-      "AssetFile": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Gestor.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1124"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"06eJlwvZwp2sbI2oOu9uBWfZYjGmO7COL6LWgKYO6f0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 23 Sep 2024 15:48:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "luy3p7xtmh"
-        },
-        {
-          "Name": "label",
-          "Value": "Gestor.styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-06eJlwvZwp2sbI2oOu9uBWfZYjGmO7COL6LWgKYO6f0="
+          "Value": "sha256-WoLyydTOS1PGCQ8q89zRIGZTI29kW6fXYu/U4eOzBGs="
         }
       ]
     },
@@ -2124,7 +2124,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1124"
+          "Value": "1711"
         },
         {
           "Name": "Content-Type",
@@ -2132,11 +2132,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"06eJlwvZwp2sbI2oOu9uBWfZYjGmO7COL6LWgKYO6f0=\""
+          "Value": "\"WoLyydTOS1PGCQ8q89zRIGZTI29kW6fXYu/U4eOzBGs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 23 Sep 2024 15:48:00 GMT"
+          "Value": "Thu, 02 Jan 2025 06:50:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2146,7 +2146,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-06eJlwvZwp2sbI2oOu9uBWfZYjGmO7COL6LWgKYO6f0="
+          "Value": "sha256-WoLyydTOS1PGCQ8q89zRIGZTI29kW6fXYu/U4eOzBGs="
         }
       ]
     },

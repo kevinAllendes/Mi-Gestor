@@ -6,7 +6,9 @@ namespace Gestor.Servicios
 {
     public interface IRepostorioCuentas
     {
+        Task<IEnumerable<Cuenta>> BuscarPorID(int idUser);
         Task Crear(Cuenta cuenta);
+
     }
     public class RepositorioCuentas : IRepostorioCuentas
     {
@@ -25,7 +27,31 @@ namespace Gestor.Servicios
             cuenta.Id = id;
         }
 
+        /*Necesito un metodo para obtener el listado de cuentas de un usuario*/
+        public async Task<IEnumerable<Cuenta>> BuscarPorID(int idUser)
+        {
+            using var connection = new SqlConnection(connectionString);
+            return await connection.QueryAsync<Cuenta>(@"SELECt Cuentas.Id, Cuentas.Nombre, Balance, tc.Nombre as TipoCuenta FROM  Cuentas
+                                                        INNER JOIN TipoCuentas tc
+                                                        On tc.Id = Cuentas.TipoCuentaId
+                                                        WHERE tc.UsuarioId = @idUser
+                                                        ORDER BY tc.Orden", new { idUser });
 
+        }
+
+        //Procedimiento para editar cuentas
+        public async Task<Cuenta> ObtenerPorId(int idCuenta, int UsuarioId)
+        {
+            using var connection = new SqlConnection(connectionString);
+            return await connection.QueryFirstOrDefaultAsync<Cuenta>(@"SELECT Cuentas.Id, 
+                                                        Cuentas.Nombre, Balance, Descripcion, 
+                                                        tc.Id FROM  Cuentas
+                                                        INNER JOIN TipoCuentas tc
+                                                        On tc.Id = Cuentas.TipoCuentaId
+                                                        WHERE tc.UsuarioId = @UsuarioId
+                                                        AND Cuentas.Id = @idCuenta", 
+                                                        new { idCuenta, UsuarioId });
+        }
     }
 }
 

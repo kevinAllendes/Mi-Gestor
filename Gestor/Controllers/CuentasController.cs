@@ -10,7 +10,7 @@ namespace Gestor.Controllers
     {
         private readonly IRepositorioTipoCuentas repositorioTipoCuentas;
         private readonly IRepositorioUsuarios repositorioUsuarios;
-        private readonly IRepostorioCuentas repostorioCuentas;
+        private readonly IRepostorioCuentas repositorioCuentas;
 
 
         public CuentasController(IRepositorioTipoCuentas repositorioTipoCuentas,
@@ -18,7 +18,7 @@ namespace Gestor.Controllers
         {
            this.repositorioTipoCuentas = repositorioTipoCuentas;
            this.repositorioUsuarios = repositorioUsuarios;
-           this.repostorioCuentas = repostorioCuentas;
+           this.repositorioCuentas = repostorioCuentas;
         }
 
         [HttpGet]
@@ -35,6 +35,7 @@ namespace Gestor.Controllers
         [HttpPost]
         public async Task<IActionResult> Crear(CuentaCreacionViewModel nuevaCuenta)
         {
+            /*Metodo para la creacion de una cuenta*/
             var usuarioId = repositorioUsuarios.ObtenerUsuarioId();
             var tipoCuentas = await repositorioTipoCuentas.Obtener(usuarioId);
             if(tipoCuentas is null)
@@ -48,7 +49,7 @@ namespace Gestor.Controllers
                 return View(nuevaCuenta);
 
             }
-            await repostorioCuentas.Crear(nuevaCuenta);
+            await repositorioCuentas.Crear(nuevaCuenta);
             return RedirectToAction("Index");
             
         }
@@ -58,6 +59,24 @@ namespace Gestor.Controllers
             var tiposCuentas = await repositorioTipoCuentas.Obtener(usuarioId);
             return tiposCuentas.Select(x => new SelectListItem(x.Nombre, x.Id.ToString()));
 
+        }
+
+        public async Task<IActionResult> Index()
+        {
+            var id = repositorioUsuarios.ObtenerUsuarioId();
+            var cuentaConTipoCuenta = await repositorioCuentas.BuscarPorID(id);
+
+            //Agrupamos por tipo cuenta y mapeamos
+            var modelo = cuentaConTipoCuenta
+                .GroupBy(x => x.TipoCuenta)
+                .Select(grupo => new IndiceCuentasViewModel
+                {
+                    TipoCuenta = grupo.Key,
+                    Cuentas = grupo.AsEnumerable()
+                }).ToList();
+
+
+            return View(modelo);
         }
     }
 }

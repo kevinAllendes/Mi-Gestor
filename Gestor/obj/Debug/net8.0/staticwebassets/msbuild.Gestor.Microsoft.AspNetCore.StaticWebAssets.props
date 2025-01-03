@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>pqnk86hfjs</Fingerprint>
-      <Integrity>MWW0qmZ7sKgDEXXbmdcnzV32UFBoUjx0kEin27m0yoc=</Integrity>
+      <Fingerprint>jfu0dab6tr</Fingerprint>
+      <Integrity>8aCzeizLvaGlPBU+wsJMdTXRoNkxuVEebsxbSfiFbMI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\custom.css'))</OriginalItemSpec>
@@ -54,23 +54,23 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Gestor.luy3p7xtmh.bundle.scp.css'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Gestor.ajr965tbey.bundle.scp.css'))">
       <SourceType>Package</SourceType>
       <SourceId>Gestor</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Gestor</BasePath>
-      <RelativePath>Gestor.luy3p7xtmh.bundle.scp.css</RelativePath>
+      <RelativePath>Gestor.ajr965tbey.bundle.scp.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>Reference</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName>ScopedCss</AssetTraitName>
       <AssetTraitValue>ProjectBundle</AssetTraitValue>
-      <Fingerprint>luy3p7xtmh</Fingerprint>
-      <Integrity>06eJlwvZwp2sbI2oOu9uBWfZYjGmO7COL6LWgKYO6f0=</Integrity>
+      <Fingerprint>ajr965tbey</Fingerprint>
+      <Integrity>WoLyydTOS1PGCQ8q89zRIGZTI29kW6fXYu/U4eOzBGs=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Gestor.luy3p7xtmh.bundle.scp.css'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Gestor.ajr965tbey.bundle.scp.css'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))">
       <SourceType>Package</SourceType>
