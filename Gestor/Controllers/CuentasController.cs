@@ -3,6 +3,7 @@ using Gestor.Servicios;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using System.Reflection;
+using AutoMapper;
 
 namespace Gestor.Controllers
 {
@@ -11,14 +12,16 @@ namespace Gestor.Controllers
         private readonly IRepositorioTipoCuentas repositorioTipoCuentas;
         private readonly IRepositorioUsuarios repositorioUsuarios;
         private readonly IRepostorioCuentas repositorioCuentas;
-
+        private readonly IMapper autoMapper;
 
         public CuentasController(IRepositorioTipoCuentas repositorioTipoCuentas,
-            IRepositorioUsuarios repositorioUsuarios,IRepostorioCuentas repostorioCuentas) 
+            IRepositorioUsuarios repositorioUsuarios,IRepostorioCuentas repostorioCuentas,
+            IMapper autoMapper) 
         {
            this.repositorioTipoCuentas = repositorioTipoCuentas;
            this.repositorioUsuarios = repositorioUsuarios;
            this.repositorioCuentas = repostorioCuentas;
+            this.autoMapper = autoMapper;
         }
 
         [HttpGet]
@@ -77,6 +80,64 @@ namespace Gestor.Controllers
 
 
             return View(modelo);
+        }
+
+        public async Task<IActionResult> Editar(int Id)
+        {
+            var userId = repositorioUsuarios.ObtenerUsuarioId();
+            var cuenta = await repositorioCuentas.ObtenerPorId(Id,userId);
+            if(cuenta is null)
+            {
+                return RedirectToAction("NoEncontrado", "Home");
+            }
+
+            //Mapeamos con autommaper
+            var modelo = autoMapper.Map<CuentaCreacionViewModel>(cuenta);
+
+            modelo.TiposCuenta = await ObtenerTiposCuenta(userId);
+            return View(modelo);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Editar(CuentaCreacionViewModel miCuenta)
+        {
+            var userId = repositorioUsuarios.ObtenerUsuarioId();
+
+            //Obtengo la cuenta a editar
+            var cuenta = await repositorioCuentas.ObtenerPorId(miCuenta.Id, userId);
+            if (cuenta is null)
+            {
+                return RedirectToAction("NoEncontrado", "Home");
+            }
+            await repositorioCuentas.Actualizar(miCuenta);
+            return RedirectToAction("Index");
+        }
+
+        //Metodo de apertura de vista Borrar
+        public async Task<IActionResult> Borrar(int id)
+        {
+            var userID = repositorioUsuarios.ObtenerUsuarioId();
+            var cuenta = await repositorioCuentas.ObtenerPorId(id, userID);
+            if (cuenta is null)
+            {
+                return RedirectToAction("NoEncontrado", "Home");
+            }
+
+            return View(cuenta);
+        }
+
+        //Metodo Post
+        [HttpPost]
+        public async Task<IActionResult> BorrarCuenta(int IdCuenta)
+        {
+            var userID = repositorioUsuarios.ObtenerUsuarioId();
+            var cuenta = await repositorioCuentas.ObtenerPorId(IdCuenta, userID);
+            if (cuenta is null)
+            {
+                return RedirectToAction("NoEncontrado", "Home");
+            }
+            await repositorioCuentas.Borrar(IdCuenta);
+            return RedirectToAction("Index");
         }
     }
 }

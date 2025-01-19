@@ -6,8 +6,12 @@ namespace Gestor.Servicios
 {
     public interface IRepostorioCuentas
     {
+        Task Actualizar(CuentaCreacionViewModel cuentaEditada);
+        Task Borrar(int id);
         Task<IEnumerable<Cuenta>> BuscarPorID(int idUser);
         Task Crear(Cuenta cuenta);
+
+        Task<Cuenta> ObtenerPorId(int id, int userID);
 
     }
     public class RepositorioCuentas : IRepostorioCuentas
@@ -51,6 +55,23 @@ namespace Gestor.Servicios
                                                         WHERE tc.UsuarioId = @UsuarioId
                                                         AND Cuentas.Id = @idCuenta", 
                                                         new { idCuenta, UsuarioId });
+        }
+
+        //Metodo para editar cuenta
+        public async Task Actualizar(CuentaCreacionViewModel cuentaEditada)
+        {
+            using var connection = new SqlConnection(connectionString);
+            await connection.ExecuteAsync(@"UPDATE Cuentas SET Nombre = @Nombre, Balance = @Balance, 
+                                            Descripcion = @Descripcion, TipoCuentaId =@TipoCuentaId
+                                            WHERE Id = @Id",cuentaEditada);
+
+        }
+
+        //Metodo para borrado de cuenta
+        public async Task Borrar(int id)
+        {
+            using var connection = new SqlConnection(connectionString);
+            await connection.ExecuteAsync(@"DELETE Cuentas WHERE Id=@Id",new { id} );
         }
     }
 }

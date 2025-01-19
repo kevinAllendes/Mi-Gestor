@@ -8,6 +8,8 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddTransient<IRepositorioUsuarios, RepositorioTipoUsuarios>();
 builder.Services.AddTransient<IRepositorioTipoCuentas, RepositorioTipoCuentas>();
 builder.Services.AddTransient<IRepostorioCuentas, RepositorioCuentas>();
+//Configuro auto mapper
+builder.Services.AddAutoMapper(typeof(Program));
 
 var app = builder.Build();
 

@@ -23,7 +23,7 @@
                         <!-- obtengo los id de manera rapida para luego reordenar -->
                         <input type="hidden" value="@cuenta.Id" class="ids" />
                         <a class="btn btn-primary" asp-action="Editar" asp-route-id="@cuenta.Id">Editar</a>
-                        <a class="btn btn-secondary" asp-action="Borrar" asp-route-id="@cuenta.Id">Borrar</a>
+                        <a class="btn btn-danger" asp-action="Borrar" asp-route-id="@cuenta.Id">Borrar</a>
                     </td>
                     <td>
                         @cuenta.Nombre
