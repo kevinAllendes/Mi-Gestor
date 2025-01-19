@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Gestor.csproj": {}
+    "C:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Gestor.csproj": {}
   },
   "projects": {
-    "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Gestor.csproj": {
+    "C:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Gestor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Gestor.csproj",
+        "projectUniqueName": "C:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Gestor.csproj",
         "projectName": "Gestor",
-        "projectPath": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Gestor.csproj",
+        "projectPath": "C:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Gestor.csproj",
         "packagesPath": "C:\\Users\\a89214\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\obj\\",
+        "outputPath": "C:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\a89214\\AppData\\Roaming\\NuGet\\NuGet.Config"

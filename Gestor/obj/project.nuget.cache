@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "699Q2vpiXIc=",
+  "dgSpecHash": "S8ocTm22L/o=",
   "success": true,
-  "projectFilePath": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Gestor.csproj",
+  "projectFilePath": "C:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Gestor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\a89214\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\a89214\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
