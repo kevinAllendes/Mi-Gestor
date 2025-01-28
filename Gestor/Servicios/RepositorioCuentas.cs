@@ -4,7 +4,7 @@ using Microsoft.Data.SqlClient;
 
 namespace Gestor.Servicios
 {
-    public interface IRepostorioCuentas
+    public interface IRepositorioCuentas
     {
         Task Actualizar(CuentaCreacionViewModel cuentaEditada);
         Task Borrar(int id);
@@ -14,7 +14,7 @@ namespace Gestor.Servicios
         Task<Cuenta> ObtenerPorId(int id, int userID);
 
     }
-    public class RepositorioCuentas : IRepostorioCuentas
+    public class RepositorioCuentas : IRepositorioCuentas
     {
         private readonly string connectionString;
         public RepositorioCuentas(IConfiguration configuration)

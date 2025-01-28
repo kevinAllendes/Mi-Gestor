@@ -11,11 +11,11 @@ namespace Gestor.Controllers
     {
         private readonly IRepositorioTipoCuentas repositorioTipoCuentas;
         private readonly IRepositorioUsuarios repositorioUsuarios;
-        private readonly IRepostorioCuentas repositorioCuentas;
+        private readonly IRepositorioCuentas repositorioCuentas;
         private readonly IMapper autoMapper;
 
         public CuentasController(IRepositorioTipoCuentas repositorioTipoCuentas,
-            IRepositorioUsuarios repositorioUsuarios,IRepostorioCuentas repostorioCuentas,
+            IRepositorioUsuarios repositorioUsuarios,IRepositorioCuentas repostorioCuentas,
             IMapper autoMapper) 
         {
            this.repositorioTipoCuentas = repositorioTipoCuentas;
