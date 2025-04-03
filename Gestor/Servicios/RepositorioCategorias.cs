@@ -8,6 +8,8 @@ namespace Gestor.Servicios
     {
         Task Crear(Categoria miCategoria);
         Task<IEnumerable<Categoria>> Obtener(int usuarioId);
+
+        Task<IEnumerable<Categoria>> Obtener(int usuarioId, TipoOperacion tipoOperacionId);
         Task Actualizar(Categoria categoria);
         Task<Categoria> ObtenerPorId(int id, int usuarioId);
 
@@ -37,6 +39,16 @@ namespace Gestor.Servicios
             return await connection.QueryAsync<Categoria>("SELECT * FROM " +
                 "Categorias WHERE UsuarioId = @usuarioID", new { usuarioId });
         }
+
+        public async Task<IEnumerable<Categoria>> Obtener(int usuarioId, TipoOperacion tipoOperacionId)
+        {
+            using var connection = new SqlConnection(connectionString);
+            return await connection.QueryAsync<Categoria>(
+                @"SELECT * FROM " +
+                "Categorias WHERE UsuarioId = @usuarioID AND TipoOperacionId = @tipoOperacionId", 
+                new { usuarioId, tipoOperacionId });
+        }
+
 
         //Devuelve solo una categoria del usuario indicado (la que le corresponde el id)
         public async Task<Categoria> ObtenerPorId(int id, int usuarioId)
