@@ -7,6 +7,10 @@ namespace Gestor.Servicios
 {
     public interface IRepositorioTransacciones
     {
+        Task<Transaccion> ObtenerPorId(int id, int usuarioId);
+        Task Actualizar(Transaccion transaccion, decimal montoAnterior, int CuentaAnteriorId);
+        Task Crear(Transaccion transaccion);
+
 
     }
 
@@ -61,6 +65,62 @@ namespace Gestor.Servicios
                 },
                 commandType: System.Data.CommandType.StoredProcedure);
             transaccion.Id = id;
+        }
+
+        public async Task Actualizar(Transaccion transaccion, decimal montoAnterior, int cuentaAnterior)
+        {
+            /**
+                 Este metodo utlizara un store procedure
+                CREATE PROCEDURE Transacciones_Actualizar
+                    @Id int,
+                    @FechaTransaccion datetime,
+                    @Monto decimal(18,2),
+                    @MontoAnterior decimal(18,2),
+                    @CuentaId int,
+                    @CuentaAnteriorId int,
+                    @CategoriaId int,
+                    @Nota nvarchar(1000) = NULL
+                AS
+                BEGIN
+
+                    SET NOCOUNT ON;
+
+                    --Revertir transacciones anterior
+
+                    UPDATE Cuentas SET Balanc -= @MontoAnterior WHERE Id = @CuentaAnteriorId;
+
+                    --Realizar nueva transaccion
+
+                    UPDATE Cuentas SET Balance += @Monto WHERE Id = @CuentaId;
+
+                    UPDATE Transacciones SET Monto = ABS(@Monto), FechaTransaccion = @FechaTransaccion,
+                    CategoriaId = @CategoriaId, CuentaId = @CuentaId, Nota = @Nota
+                    WHERE Id = @Id;
+                END
+            */
+            using var connection = new SqlConnection(connectionString);
+            await connection.ExecuteAsync("Transacciones_Actualizar",
+                new
+                {
+                    transaccion.Id,
+                    transaccion.FechaTransaccion,
+                    transaccion.Monto,
+                    transaccion.CategoriaId,
+                    transaccion.CuentaId,
+                    transaccion.Nota,
+                    montoAnterior,
+                    cuentaAnterior
+                }, commandType: System.Data.CommandType.StoredProcedure);
+        }
+
+        public async Task<Transaccion> ObtenerPorId(int id, int usuarioId)
+        {
+            using var connection =  new SqlConnection(connectionString);
+            return await connection.QueryFirstOrDefaultAsync<Transaccion>(@"
+            SELECT FROM Transacciones INNER JOIN Categorias cat ON cat.Id = Transacciones.CategoriaId
+            WHERE Transacciones.Id = @Id AND Transacciones.UsuarioId = @UsuarioId", new {id, usuarioId});
+            
+            
         }
 
     }
