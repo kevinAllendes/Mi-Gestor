@@ -1,0 +1,76 @@
+@model TransaccionCreacionViewModel
+@{
+    ViewData["Title"] = "Crear Transaccion";
+}
+
+<h1>Crear Transaccion</h1>
+<h5>Una transaccion te permite indicar tus ingresos y gastos</h5>
+<form asp-action="Crear">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="mb-3">
+        <!-- Ingreso de la fecha de la transaccion -->
+        <label asp-for="FechaTransaccion" class="form-label"></label>
+        <input asp-for="FechaTransaccion" class="form-control" />
+        <span asp-validation-for="FechaTransaccion" class="text-danger"></span>
+    </div>
+    <!-- Ingreso de la cuenta de la transaccion -->
+    <div class="mb-3">
+        <label asp-for="CuentaId" class="form-label"></label>
+        <select asp-for="CuentaId" asp-items="Model.Cuentas" class="form-select"></select>
+        <span asp-validation-for="CuentaId" class="text-danger"></span>
+    </div>
+    <!-- Ingreso del tipo de operacion de la transaccion -->
+    <div class="mb-3">
+        <label asp-for="TipoOperacionId" class="form-label"></label>
+        <select asp-for="TipoOperacionId" asp-items="Html.GetEnumSelectList<TipoOperacion>()"
+        class="form-select"></select>
+        <span asp-validation-for="TipoOperacionId" class="text-danger"></span>
+    </div>
+    <!-- Ingreso de la categoria de la transaccion -->
+    <div class="mb-3">
+        <label asp-for="CategoriaId" class="form-label"></label>
+        <select asp-for="CategoriaId" class="form-select"></select>
+        <span asp-validation-for="CategoriaId" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <!-- Ingreso del monto de la transaccion -->
+        <label asp-for="Monto" class="form-label"></label>
+        <input asp-for="Monto" class="form-control" />
+        <span asp-validation-for="Monto" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <!-- Ingreso de la Nota de la transaccion -->
+        <label asp-for="Nota" class="form-label"></label>
+        <input asp-for="Nota" class="form-control" />
+        <span asp-validation-for="Nota" class="text-danger"></span>
+    </div>
+
+
+</form>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <!-- #region  Creamos el metodo que genera el cambio de categoria dependiendo
+    del tipo de operacion-->
+    <script>
+
+        const urlObtenerCategorias = '@Url.Action("ObtenerCategorias")';
+        $(function(){
+            $("#TipoOperacionId").change(async function(){
+                const valorSeleccionado =  $(this).val(); 
+                const respuesta = await fetch(urlObtenerCategorias, {
+                    method: 'POST',
+                    body: valorSeleccionado,
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                });
+                const json = await respuesta.json();
+                /**En este sector ya poseo las categorias falta cargarlas*/
+                const opciones = json.map(categoria => `<option value=${categoria.value}>${categoria.text}</option>`);
+                $("#CategoriaId").html(opciones);
+                
+            })
+        })
+    </script>
+}
