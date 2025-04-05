@@ -67,7 +67,7 @@ namespace Gestor.Servicios
             transaccion.Id = id;
         }
 
-        public async Task Actualizar(Transaccion transaccion, decimal montoAnterior, int cuentaAnterior)
+        public async Task Actualizar(Transaccion transaccion, decimal montoAnterior, int cuentaAnteriorId)
         {
             /**
                  Este metodo utlizara un store procedure
@@ -109,7 +109,7 @@ namespace Gestor.Servicios
                     transaccion.CuentaId,
                     transaccion.Nota,
                     montoAnterior,
-                    cuentaAnterior
+                    cuentaAnteriorId
                 }, commandType: System.Data.CommandType.StoredProcedure);
         }
 
@@ -117,7 +117,7 @@ namespace Gestor.Servicios
         {
             using var connection =  new SqlConnection(connectionString);
             return await connection.QueryFirstOrDefaultAsync<Transaccion>(@"
-            SELECT FROM Transacciones INNER JOIN Categorias cat ON cat.Id = Transacciones.CategoriaId
+            SELECT * FROM Transacciones INNER JOIN Categorias cat ON cat.Id = Transacciones.CategoriaId
             WHERE Transacciones.Id = @Id AND Transacciones.UsuarioId = @UsuarioId", new {id, usuarioId});
             
             

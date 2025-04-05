@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Razor.TagHelpers;
 using Gestor.Models;
 using System.Runtime.CompilerServices;
+using AutoMapper;
+using Microsoft.IdentityModel.Abstractions;
 
 namespace Gestor.Controllers
 {
@@ -14,15 +16,17 @@ namespace Gestor.Controllers
         private readonly IRepositorioCategorias repositorioCategorias;
 
         private readonly IRepositorioTransacciones repositorioTransacciones;
+        private readonly IMapper mapper;
 
         public TransaccionesController(IRepositorioUsuarios servicioUsuarios, 
         IRepositorioCuentas repositorioCuentas, IRepositorioCategorias repositorioCategorias,
-        IRepositorioTransacciones repositorioTransacciones)
+        IRepositorioTransacciones repositorioTransacciones, IMapper mapper)
         {
             this.servicioUsuarios = servicioUsuarios;
             this.repositorioCuentas = repositorioCuentas;
             this.repositorioCategorias = repositorioCategorias;
             this.repositorioTransacciones = repositorioTransacciones;
+            this.mapper = mapper;
         }
 
         /** 
@@ -33,7 +37,7 @@ namespace Gestor.Controllers
             var usuarioId = servicioUsuarios.ObtenerUsuarioId();
             var modelo =  new TransaccionCreacionViewModel();
             modelo.Cuentas = await ObtenerCuentas(usuarioId);
-            modelo.Categorias =  await ObtenerCategorias(usuarioId, modelo.TipoOperacionId);
+            modelo.Categorias =  await ObtenerCategorias(usuarioId, modelo.tipoOperacionId);
             return View(modelo);
 
         }
@@ -54,7 +58,7 @@ namespace Gestor.Controllers
             {
                 return RedirectToAction("No Encontrado","Home");
             }
-            var categoria =  await repositorioCategorias.ObtenerPorId(modelo.CuentaId,usuarioId);
+            var categoria =  await repositorioCategorias.ObtenerPorId(modelo.CategoriaId,usuarioId);
             if(categoria is null)
             {
                 return RedirectToAction("No Encontrado","Home");
@@ -99,6 +103,61 @@ namespace Gestor.Controllers
             var usuarioId = servicioUsuarios.ObtenerUsuarioId();
             var categorias = await ObtenerCategorias(usuarioId, tipoOperacion);
             return Ok(categorias);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Editar(int id)
+        {
+            var usuarioId = servicioUsuarios.ObtenerUsuarioId();
+            var transaccion =  await repositorioTransacciones.ObtenerPorId(id, usuarioId);
+
+            if(transaccion is null)
+            {
+                return RedirectToAction("No encontrado","Home");
+            }
+            var modelo = mapper.Map<TransaccionActualizacionViewModel>(transaccion);
+            if(modelo.tipoOperacionId == TipoOperacion.Gasto)
+            {
+                modelo.MontoAnterior =  modelo.Monto *-1;
+            }
+            modelo.CuentaAnteriorId = transaccion.CuentaId;
+            modelo.Categorias = await ObtenerCategorias(usuarioId, transaccion.tipoOperacionId);
+            modelo.Cuentas =await ObtenerCuentas(usuarioId);
+            return View(modelo);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Editar(TransaccionActualizacionViewModel modelo)
+        {
+            var usuarioId = servicioUsuarios.ObtenerUsuarioId();
+            
+            if(!ModelState.IsValid)
+            {
+                modelo.Cuentas = await ObtenerCuentas(usuarioId);
+                modelo.Categorias = await ObtenerCategorias(usuarioId, modelo.tipoOperacionId);
+                return View(modelo);
+            }
+            var cuenta = await repositorioCuentas.ObtenerPorId(modelo.CuentaId, usuarioId);
+
+            if(cuenta is null)
+            {
+                return RedirectToAction("NoEncontrado","Home");
+            }
+
+            var categoria = await repositorioCategorias.ObtenerPorId(modelo.CategoriaId, usuarioId);
+            if(categoria is null)
+            {
+                return RedirectToAction("NoEncontrado","Home");
+            }
+            var transaccion =  mapper.Map<Transaccion>(modelo);
+            if(modelo.tipoOperacionId == TipoOperacion.Gasto)
+            {
+                transaccion.Monto *= -1;
+            }
+            await repositorioTransacciones.Actualizar(transaccion, modelo.MontoAnterior, 
+            modelo.CuentaAnteriorId);
+            return RedirectToAction("Index");
+
         }
     }
 
