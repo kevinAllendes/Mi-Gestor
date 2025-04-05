@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Gestor.csproj": {}
+    "C:\\Users\\a89214\\OneDrive - AFGCORP\\Documentos\\GitHub\\Mi-Gestor\\Gestor\\Gestor.csproj": {}
   },
   "projects": {
-    "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Gestor.csproj": {
+    "C:\\Users\\a89214\\OneDrive - AFGCORP\\Documentos\\GitHub\\Mi-Gestor\\Gestor\\Gestor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Gestor.csproj",
+        "projectUniqueName": "C:\\Users\\a89214\\OneDrive - AFGCORP\\Documentos\\GitHub\\Mi-Gestor\\Gestor\\Gestor.csproj",
         "projectName": "Gestor",
-        "projectPath": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Gestor.csproj",
+        "projectPath": "C:\\Users\\a89214\\OneDrive - AFGCORP\\Documentos\\GitHub\\Mi-Gestor\\Gestor\\Gestor.csproj",
         "packagesPath": "C:\\Users\\a89214\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\a89214\\Documents\\GitHub\\Mi-Gestor\\Gestor\\obj\\",
+        "outputPath": "C:\\Users\\a89214\\OneDrive - AFGCORP\\Documentos\\GitHub\\Mi-Gestor\\Gestor\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\a89214\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -36,14 +36,18 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "Dapper": {
               "target": "Package",
               "version": "[2.1.35, )"
@@ -67,19 +71,19 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.11, 8.0.11]"
+              "version": "[8.0.14, 8.0.14]"
             },
             {
               "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[8.0.11, 8.0.11]"
+              "version": "[8.0.14, 8.0.14]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.11, 8.0.11]"
+              "version": "[8.0.14, 8.0.14]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.11, 8.0.11]"
+              "version": "[8.0.14, 8.0.14]"
             }
           ],
           "frameworkReferences": {
@@ -90,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

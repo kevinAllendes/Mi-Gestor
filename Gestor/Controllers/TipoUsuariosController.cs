@@ -23,11 +23,12 @@ namespace Gestor.Controllers
         }
 
         [HttpPost]
-        public IActionResult LogInUsuarios(TipoUsuarios tipoUsuarios)
-        { 
-            if(repositorioUsuarios.BuscarUsuario(tipoUsuarios))
+        public async Task<IActionResult> LogInUsuarios(TipoUsuarios tipoUsuarios)
+        {
+            var existe = await repositorioUsuarios.BuscarUsuario(tipoUsuarios);
+            if(existe)
             {
-                return View("Index.cshtml","Home");
+                return RedirectToAction("Index","Home");
             }
             return View();
         }
@@ -37,8 +38,8 @@ namespace Gestor.Controllers
         {
             return View();
         }
-       
-       
+
+        
 
     }
 }

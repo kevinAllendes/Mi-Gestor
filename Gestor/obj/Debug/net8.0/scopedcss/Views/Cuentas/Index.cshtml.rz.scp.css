@@ -1,0 +1,27 @@
+.activo[b-i9blblyjj4] {
+    color: blue;
+}
+
+.pasivo[b-i9blblyjj4] {
+    color: red;
+}
+
+.acordeon-cuentas button[b-i9blblyjj4] {
+    color: black !important;
+    font-size: 20px;
+}
+
+    .acordeon-cuentas button > span[b-i9blblyjj4] {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+.acordeon-cuentas ul li[b-i9blblyjj4] {
+    display: flex;
+    justify-content: space-between;
+}
+
+.acordeon-cuentas .accordion-collapse[b-i9blblyjj4] {
+    font-size: 18px;
+}
