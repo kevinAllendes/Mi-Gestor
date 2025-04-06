@@ -48,8 +48,8 @@ namespace Gestor.Servicios
         {
             using var connection = new SqlConnection(connectionString);
             return await connection.QueryFirstOrDefaultAsync<Cuenta>(@"SELECT Cuentas.Id, 
-                                                        Cuentas.Nombre, Balance, Descripcion, 
-                                                        tc.Id FROM  Cuentas
+                                                        Cuentas.Nombre, Balance, Descripcion, TipoCuentaId
+                                                        FROM  Cuentas
                                                         INNER JOIN TipoCuentas tc
                                                         On tc.Id = Cuentas.TipoCuentaId
                                                         WHERE tc.UsuarioId = @UsuarioId

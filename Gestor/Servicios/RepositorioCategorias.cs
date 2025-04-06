@@ -6,12 +6,12 @@ namespace Gestor.Servicios
 {
     public interface IRepositorioCategorias
     {
-        Task Crear(Categoria miCategoria);
-        Task<IEnumerable<Categoria>> Obtener(int usuarioId);
+        Task Crear(Categorias miCategoria);
+        Task<IEnumerable<Categorias>> Obtener(int usuarioId);
 
-        Task<IEnumerable<Categoria>> Obtener(int usuarioId, TipoOperacion tipoOperacionId);
-        Task Actualizar(Categoria categoria);
-        Task<Categoria> ObtenerPorId(int id, int usuarioId);
+        Task<IEnumerable<Categorias>> Obtener(int usuarioId, TipoOperacion tipoOperacionId);
+        Task Actualizar(Categorias categoria);
+        Task<Categorias> ObtenerPorId(int id, int usuarioId);
 
         Task Borrar(int id);
     }
@@ -24,7 +24,7 @@ namespace Gestor.Servicios
             this.connectionString = configuration.GetConnectionString("DefaultConnection");
         }
 
-        public async Task Crear(Categoria miCategoria)
+        public async Task Crear(Categorias miCategoria)
         {
             using var connection = new SqlConnection(connectionString);
             var resultado = await connection.QuerySingleAsync<int>(@"INSERT INTO Categorias (Nombre,TipoOperacionId,UsuarioId) VALUES (@Nombre,@TipoOperacionId,@UsuarioId);
@@ -33,17 +33,17 @@ namespace Gestor.Servicios
         }
 
         //Metodo que me devuelve todas las categorias de un usuario
-        public async Task<IEnumerable<Categoria>> Obtener(int usuarioId)
+        public async Task<IEnumerable<Categorias>> Obtener(int usuarioId)
         {
             using var connection = new SqlConnection(connectionString);
-            return await connection.QueryAsync<Categoria>("SELECT * FROM " +
+            return await connection.QueryAsync<Categorias>("SELECT * FROM " +
                 "Categorias WHERE UsuarioId = @usuarioID", new { usuarioId });
         }
 
-        public async Task<IEnumerable<Categoria>> Obtener(int usuarioId, TipoOperacion tipoOperacionId)
+        public async Task<IEnumerable<Categorias>> Obtener(int usuarioId, TipoOperacion tipoOperacionId)
         {
             using var connection = new SqlConnection(connectionString);
-            return await connection.QueryAsync<Categoria>(
+            return await connection.QueryAsync<Categorias>(
                 @"SELECT * FROM " +
                 "Categorias WHERE UsuarioId = @usuarioID AND TipoOperacionId = @tipoOperacionId", 
                 new { usuarioId, tipoOperacionId });
@@ -51,15 +51,15 @@ namespace Gestor.Servicios
 
 
         //Devuelve solo una categoria del usuario indicado (la que le corresponde el id)
-        public async Task<Categoria> ObtenerPorId(int id, int usuarioId)
+        public async Task<Categorias> ObtenerPorId(int id, int usuarioId)
         {
             using var connection = new SqlConnection(connectionString);
-            return await connection.QueryFirstOrDefaultAsync<Categoria>(
+            return await connection.QueryFirstOrDefaultAsync<Categorias>(
                 @"Select * From Categorias Where Id = @Id AND UsuariosId = @UsuarioId",
                 new { id, usuarioId});
         }
 
-        public async Task Actualizar(Categoria categoria)
+        public async Task Actualizar(Categorias categoria)
         {
             using var connection  = new SqlConnection(connectionString);
             await connection.ExecuteAsync(@"UPDATE Categorias 

@@ -1,4 +1,4 @@
-namespace Gestor
+namespace Gestor.Models
 {
     public class ReporteTransaccionesDetalladas
     {
@@ -15,10 +15,10 @@ namespace Gestor
         {
             public DateTime FechaTransaccion {get;set;}
             public IEnumerable<Transaccion> Transacciones {get;set;}
-            public decimal BalanceDepositos => Transacciones.Where(x => x.TipoOperacionId == TipoOperacion.Ingreso)
+            public decimal BalanceDepositos => Transacciones.Where(x => x.tipoOperacionId == TipoOperacion.Ingreso)
             .Sum(x => x.Monto);
 
-            public decimal BalanceRetiros => Transacciones.Where(x => x.TipoOperacionId == TipoOperacion.Gasto)
+            public decimal BalanceRetiros => Transacciones.Where(x => x.tipoOperacionId == TipoOperacion.Gasto)
             .Sum(x => x.Monto);
         }
 

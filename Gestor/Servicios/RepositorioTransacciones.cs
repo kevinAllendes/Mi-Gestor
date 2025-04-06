@@ -12,7 +12,9 @@ namespace Gestor.Servicios
         Task Crear(Transaccion transaccion);
         Task Borrar(int id);
 
-        Task<IEnumerable<Transacciones>> ObtenerPorCuentaId(ObtenerTransaccionesPorCuenta modelo)
+        Task<IEnumerable<Transaccion>> ObtenerPorCuentaId(ObtenerTransaccionesPorCuenta modelo);
+
+        Task<IEnumerable<Transaccion>> ObtenerPorUsuarioId(ParametroObtenerTransaccionesPorUsuario modelo);
     }
 
     public class RepositorioTransacciones: IRepositorioTransacciones
@@ -158,8 +160,8 @@ namespace Gestor.Servicios
                 new {id}, commandType: System.Data.CommandType.StoredProcedure);
         }
 
-        public async Task<IEnumerable<Transacciones>> ObtenerPorCuentaId(
-            ObtenerTransaccionPorCuenta modelo)
+        public async Task<IEnumerable<Transaccion>> ObtenerPorCuentaId(
+            ObtenerTransaccionesPorCuenta modelo)
         {
             using var connection = new SqlConnection(connectionString);
             return await connection.QueryAsync<Transaccion>(@"
@@ -174,6 +176,22 @@ namespace Gestor.Servicios
                 AND FechaTransaccion BETWEEN @FechaInicio AND @FechaFin", modelo);
         }
         
+        public async Task<IEnumerable<Transaccion>> ObtenerPorUsuarioId(
+            ParametroObtenerTransaccionesPorUsuario modelo)
+        {
+            using var connection = new SqlConnection(connectionString);
+            return await connection.QueryAsync<Transaccion>(@"
+                SELECT t.Id, t.Monto, T.FechaTransaccion, c.Nombre as Categoria,
+                cu.Nombre as Cuenta, c.TipoOperacionId
+                FROM Transacciones t 
+                INNER JOIN Categorias c 
+                ON c.Id = t.CategoriaId
+                INNER JOIN Cuenta Cu
+                ON cu.Id = t.CuentaId
+                WHERE t.UsuarioId = @UsuarioId
+                AND FechaTransaccion BETWEEN @FechaInicio AND @FechaFin
+                ORDER BY t.FechaTransaccion DESC", modelo);
+        }
 
     }
 }

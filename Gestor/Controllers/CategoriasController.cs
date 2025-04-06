@@ -7,11 +7,11 @@ namespace Gestor.Controllers
     public class CategoriasController : Controller
     {
         private readonly IRepositorioCategorias repositorioCategorias;
-        private readonly IRepositorioUsuarios usuarios;
+        private readonly IRepositorioUsuarios repositorioUsuarios;
         public CategoriasController(IRepositorioCategorias repositorioCategorias, IRepositorioUsuarios repositorioUsuarios) 
         { 
             this.repositorioCategorias = repositorioCategorias;
-            this.usuarios = repositorioUsuarios;
+            this.repositorioUsuarios = repositorioUsuarios;
         }
 
         [HttpGet]
@@ -21,14 +21,14 @@ namespace Gestor.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Crear(Categoria categoria)
+        public async Task<IActionResult> Crear(Categorias categoria)
         {
             if(!ModelState.IsValid)
             {
                 return View(categoria);
             }
 
-            var usuarioId = usuarios.ObtenerUsuarioId();
+            var usuarioId = repositorioUsuarios.ObtenerUsuarioId();
             categoria.UsuarioId = usuarioId;
             await repositorioCategorias.Crear(categoria);
             return RedirectToAction("Index");
@@ -38,7 +38,7 @@ namespace Gestor.Controllers
         //Retornamos la vista de edicion de categorias a partir de su id
         public async Task<IActionResult> Editar(int id)
         {
-            var usuarioId = repositorioTipoUsuarios.ObtenerUsuarioId();
+            var usuarioId = repositorioUsuarios.ObtenerUsuarioId();
             var categoria = await repositorioCategorias.ObtenerPorId(id, usuarioId);
 
             if(categoria is null)
@@ -53,7 +53,7 @@ namespace Gestor.Controllers
         [HttpPost]
         public async Task<IActionResult> Editar(Categorias categoria)
         {
-            var usuarioId = repositorioTipoUsuarios.ObtenerUsuarioId();
+            var usuarioId = repositorioUsuarios.ObtenerUsuarioId();
             var categoriaAEditar =  await repositorioCategorias.ObtenerPorId(categoria.Id,usuarioId);
             if(categoria is null)
             {
@@ -67,7 +67,7 @@ namespace Gestor.Controllers
 
         public async Task<IActionResult> Borrar(int id)
         {
-            var usuarioId =  RepositorioTipoUsuarios.ObtenerUsuarioId();
+            var usuarioId =  repositorioUsuarios.ObtenerUsuarioId();
             var categoriaABorrar =  await repositorioCategorias.ObtenerPorId(id, usuarioId);
             if(categoriaABorrar is null)
             {
@@ -78,9 +78,9 @@ namespace Gestor.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> BorrarCategorias(Categoria categoria)
+        public async Task<IActionResult> BorrarCategorias(Categorias categoria)
         {
-            var usuarioId = repositorioTipoUsuarios.ObtenerUsuarioId();
+            var usuarioId = repositorioUsuarios.ObtenerUsuarioId();
             var categoriaABorrar =  await repositorioCategorias.ObtenerPorId(categoria.Id,usuarioId);
             if(categoriaABorrar is null)
             {
@@ -97,7 +97,7 @@ namespace Gestor.Controllers
 
         public async Task<IActionResult> Index()
         {
-            var usuarioId = usuarios.ObtenerUsuarioId();
+            var usuarioId = repositorioUsuarios.ObtenerUsuarioId();
             var misCategorias = await repositorioCategorias.Obtener(usuarioId);
             return View(misCategorias);
         }

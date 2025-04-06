@@ -2,7 +2,7 @@
 
 namespace Gestor.Models
 {
-    public class Categoria
+    public class Categorias
     {
         public int Id { get; set; }
         [Required(ErrorMessage ="El campo {0} es requerido")]

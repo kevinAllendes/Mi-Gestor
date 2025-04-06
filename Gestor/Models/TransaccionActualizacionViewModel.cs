@@ -7,6 +7,8 @@ namespace Gestor.Models
     {
         public int CuentaAnteriorId {get; set;}
         public decimal MontoAnterior {get;set;}
+
+        public string urlRetorno {get;set;}
         
     }
 }
