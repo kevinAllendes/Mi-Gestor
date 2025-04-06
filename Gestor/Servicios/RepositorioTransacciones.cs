@@ -10,8 +10,9 @@ namespace Gestor.Servicios
         Task<Transaccion> ObtenerPorId(int id, int usuarioId);
         Task Actualizar(Transaccion transaccion, decimal montoAnterior, int CuentaAnteriorId);
         Task Crear(Transaccion transaccion);
+        Task Borrar(int id);
 
-
+        Task<IEnumerable<Transacciones>> ObtenerPorCuentaId(ObtenerTransaccionesPorCuenta modelo)
     }
 
     public class RepositorioTransacciones: IRepositorioTransacciones
@@ -122,6 +123,57 @@ namespace Gestor.Servicios
             
             
         }
+
+        public async Task Borrar(int id)
+        {
+            /**
+               Creamos procedimiento almacenado para borrado de transacciones
+                CREATE PROCEDURE Transacciones_Borrar
+                    @Id int
+                AS BEGIN
+                    SET NOCOUT ON;
+                    DECLARE @Monto decimal(18,2);
+                    DECLARE @CuentaId int;
+                    DECLARE @TipoOperacion int;
+                    
+                    SELECT * FROM Transacciones
+                    inner join Categorias cat
+                    ON  cat.Id = Transaccione.CategoriaId
+                    WHERE Transacciones.Id = @Id;
+
+                    DECLARE  @FactorMultiplicativo int = 1; 
+                    IF (@TipoOperacionId = 2)
+                    SET @FactorMultiplicativo = -1;
+
+                    SET @Monto = @Monto * @FactorMultiplicativo; 
+                    
+                    UPDATE Cuentas SET Balance -= @Monto WHERE Id = @CuentaId;
+
+                    DELETE Transacciones WHERE Id =  @Id;
+                END
+
+            */
+            using var connection =  new SqlConnection(connectionString);
+            await connection.ExecuteAsync("Transaccion_Borrar",
+                new {id}, commandType: System.Data.CommandType.StoredProcedure);
+        }
+
+        public async Task<IEnumerable<Transacciones>> ObtenerPorCuentaId(
+            ObtenerTransaccionPorCuenta modelo)
+        {
+            using var connection = new SqlConnection(connectionString);
+            return await connection.QueryAsync<Transaccion>(@"
+                SELECT t.Id, t.Monto, T.FechaTransaccion, c.Nombre as Categoria,
+                cu.Nombre as Cuenta, c.TipoOperacionId
+                FROM Transacciones t 
+                INNER JOIN Categorias c 
+                ON c.Id = t.CategoriaId
+                INNER JOIN Cuenta Cu
+                ON cu.Id = t.CuentaId
+                WHERE t.CuentaId = @CuentaId AND t.UsuarioId = @UsuarioId
+                AND FechaTransaccion BETWEEN @FechaInicio AND @FechaFin", modelo);
+        }
+        
 
     }
 }

@@ -1,0 +1,65 @@
+@model ReporteTransaccionesDetalladas
+
+@{
+    ViewData["Title"] = "Reporte de transacciones detalladas";
+}
+
+<h1>Moviemientos @ViewBag.Cuenta</h1>
+<h4>
+    <a asp-route-mes="@ViewBag.mesAnterior" asp-route-año="@ViewBag.añoAnterior"
+    class="btn btn-secondary"><i class="bi-chevron-left"></i></a>
+    @Model.FechaInicio.ToString("MMM")-@Model.FechaInicio.Year
+    <a asp-route-mes="@ViewBag.mesPosterior" asp-route-año="@ViewBag.añoPosterior"
+    class="btn btn-secondary"><i class="bi-chevron-right"></i></a>
+</h4>
+
+<div class="contenedor-totales mb-3">
+    <div>
+        <div>
+            <strong>Depositos</strong>
+        </div>
+        <div class="activo">
+            @Model.BalanceDepositos.ToString("N")
+        </div>
+    </div>
+    <div>
+        <div>
+            <strong>Retiros</strong>
+        </div>
+        <div class="pasivo">
+            @Model.BalanceRetiros.ToString("N")
+        </div>
+    </div>
+    <div>
+        <div>
+            <strong>Total</strong>
+        </div>
+        <div>
+            @Model.Total.ToString("N")
+        </div>
+    </div>
+</div>
+
+@if (Model.TransaccionesAgrupadas.Count() == 0)
+{
+    <h5>No hay transacciones para mostrar</h5>
+}
+else{
+    <table class="table">
+        <tbody>
+            @foreach(var transaccionAgrupada in Model.TransaccionesAgrupadas)
+            {
+                <tr style="background-color: lightblue; font-size: 26px;">
+                    <td colspan="3">
+                        @transaccionAgrupada.FechaTransaccion.Day
+                        <span class="badge bg-secondary">
+                            @transaccionAgrupada.FechaTransaccion.ToString("ddd")
+                        </span>
+                    </td>
+                    <td class="activo">@transaccionAgrupada.BalanceDepositos.ToString("N")</td>
+                    <td class="pasivo">@transaccionAgrupada.BalanceRetiros.ToString("N")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

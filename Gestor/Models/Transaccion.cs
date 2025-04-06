@@ -24,6 +24,8 @@ namespace Gestor.Models
         public int CuentaId {get; set;} 
         [Display(Name ="Tipo Operacion")]
         public TipoOperacion tipoOperacionId {get; set;} = TipoOperacion.Ingreso;
+        public string Cuenta{get; set;}
+        public string Categoria {get;set;}
 
     }
 }
