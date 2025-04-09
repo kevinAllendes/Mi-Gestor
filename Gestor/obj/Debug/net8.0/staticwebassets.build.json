@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Oeejc5JVg+lxMB1SblUcMZlnYk7N/yz3AQPOEcRl6us=",
+  "Hash": "maY5OqtdyIYAnCisdN4/Dc6AIuYUPQf4rIpPduG7ZaY=",
   "Source": "Gestor",
   "BasePath": "_content/Gestor",
   "Mode": "Default",
@@ -120,6 +120,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\js\\FormularioTransacciones.js",
+      "SourceId": "Gestor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\",
+      "BasePath": "_content/Gestor",
+      "RelativePath": "js/FormularioTransacciones#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "oa649k42g3",
+      "Integrity": "4DGTwGKtoLtLDEepzLJAfZ/nY4fO1IfIujCC46B1Uio=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\FormularioTransacciones.js"
     },
     {
       "Identity": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\js\\site.js",
@@ -1763,7 +1784,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 02 Jan 2025 06:49:56 GMT"
+          "Value": "Tue, 08 Apr 2025 14:42:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1800,7 +1821,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 02 Jan 2025 06:49:56 GMT"
+          "Value": "Tue, 08 Apr 2025 14:42:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2009,7 +2030,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 02 Jan 2025 06:50:04 GMT"
+          "Value": "Tue, 08 Apr 2025 14:42:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2054,7 +2075,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 02 Jan 2025 06:50:04 GMT"
+          "Value": "Tue, 08 Apr 2025 14:42:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2099,7 +2120,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 02 Jan 2025 06:50:04 GMT"
+          "Value": "Tue, 08 Apr 2025 14:42:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2136,7 +2157,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 02 Jan 2025 06:50:04 GMT"
+          "Value": "Tue, 08 Apr 2025 14:42:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2147,6 +2168,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-WoLyydTOS1PGCQ8q89zRIGZTI29kW6fXYu/U4eOzBGs="
+        }
+      ]
+    },
+    {
+      "Route": "js/FormularioTransacciones.js",
+      "AssetFile": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\js\\FormularioTransacciones.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "809"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4DGTwGKtoLtLDEepzLJAfZ/nY4fO1IfIujCC46B1Uio=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Apr 2025 14:42:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4DGTwGKtoLtLDEepzLJAfZ/nY4fO1IfIujCC46B1Uio="
+        }
+      ]
+    },
+    {
+      "Route": "js/FormularioTransacciones.oa649k42g3.js",
+      "AssetFile": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\js\\FormularioTransacciones.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "809"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4DGTwGKtoLtLDEepzLJAfZ/nY4fO1IfIujCC46B1Uio=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Apr 2025 14:42:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oa649k42g3"
+        },
+        {
+          "Name": "label",
+          "Value": "js/FormularioTransacciones.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4DGTwGKtoLtLDEepzLJAfZ/nY4fO1IfIujCC46B1Uio="
         }
       ]
     },
@@ -6273,7 +6376,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 21:32:53 GMT"
+          "Value": "Tue, 08 Apr 2025 14:42:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6318,7 +6421,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 21:32:53 GMT"
+          "Value": "Tue, 08 Apr 2025 14:42:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6355,7 +6458,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 21:32:53 GMT"
+          "Value": "Tue, 08 Apr 2025 14:42:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6400,7 +6503,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 21:32:53 GMT"
+          "Value": "Tue, 08 Apr 2025 14:42:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6437,7 +6540,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 21:32:53 GMT"
+          "Value": "Tue, 08 Apr 2025 14:42:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6474,7 +6577,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 21:32:53 GMT"
+          "Value": "Tue, 08 Apr 2025 14:42:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6519,7 +6622,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 21:32:53 GMT"
+          "Value": "Tue, 08 Apr 2025 14:42:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6556,7 +6659,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 21:32:53 GMT"
+          "Value": "Tue, 08 Apr 2025 14:42:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6601,7 +6704,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 21:32:53 GMT"
+          "Value": "Tue, 08 Apr 2025 14:42:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6646,7 +6749,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 21:32:53 GMT"
+          "Value": "Tue, 08 Apr 2025 14:42:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6683,7 +6786,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 21:32:53 GMT"
+          "Value": "Tue, 08 Apr 2025 14:42:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6728,7 +6831,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 21:32:53 GMT"
+          "Value": "Tue, 08 Apr 2025 14:42:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6765,7 +6868,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 21:32:53 GMT"
+          "Value": "Tue, 08 Apr 2025 14:42:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6810,7 +6913,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 21:32:53 GMT"
+          "Value": "Tue, 08 Apr 2025 14:42:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6847,7 +6950,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 21:32:53 GMT"
+          "Value": "Tue, 08 Apr 2025 14:42:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6892,7 +6995,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 21:32:53 GMT"
+          "Value": "Tue, 08 Apr 2025 14:42:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6929,7 +7032,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 21:32:53 GMT"
+          "Value": "Tue, 08 Apr 2025 14:42:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6974,7 +7077,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 21:32:53 GMT"
+          "Value": "Tue, 08 Apr 2025 14:42:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7011,7 +7114,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 21:32:53 GMT"
+          "Value": "Tue, 08 Apr 2025 14:42:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7056,7 +7159,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 21:32:53 GMT"
+          "Value": "Tue, 08 Apr 2025 14:42:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7093,7 +7196,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 21:32:53 GMT"
+          "Value": "Tue, 08 Apr 2025 14:42:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7130,7 +7233,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 21:32:53 GMT"
+          "Value": "Tue, 08 Apr 2025 14:42:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7167,7 +7270,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 21:32:53 GMT"
+          "Value": "Tue, 08 Apr 2025 14:42:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7204,7 +7307,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 21:32:53 GMT"
+          "Value": "Tue, 08 Apr 2025 14:42:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7249,7 +7352,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 21:32:53 GMT"
+          "Value": "Tue, 08 Apr 2025 14:42:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7294,7 +7397,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 21:32:53 GMT"
+          "Value": "Tue, 08 Apr 2025 14:42:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7339,7 +7442,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 21:32:53 GMT"
+          "Value": "Tue, 08 Apr 2025 14:42:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7376,7 +7479,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 21:32:53 GMT"
+          "Value": "Tue, 08 Apr 2025 14:42:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7421,7 +7524,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 21:32:53 GMT"
+          "Value": "Tue, 08 Apr 2025 14:42:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7466,7 +7569,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 21:32:53 GMT"
+          "Value": "Tue, 08 Apr 2025 14:42:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7503,7 +7606,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 21:32:53 GMT"
+          "Value": "Tue, 08 Apr 2025 14:42:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7540,7 +7643,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 21:32:53 GMT"
+          "Value": "Tue, 08 Apr 2025 14:42:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7585,7 +7688,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 21:32:53 GMT"
+          "Value": "Tue, 08 Apr 2025 14:42:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7622,7 +7725,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 21:32:53 GMT"
+          "Value": "Tue, 08 Apr 2025 14:42:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7667,7 +7770,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 21:32:53 GMT"
+          "Value": "Tue, 08 Apr 2025 14:42:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7712,7 +7815,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 21:32:53 GMT"
+          "Value": "Tue, 08 Apr 2025 14:42:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7749,7 +7852,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 21:32:53 GMT"
+          "Value": "Tue, 08 Apr 2025 14:42:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7794,7 +7897,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 31 Dec 2024 21:32:53 GMT"
+          "Value": "Tue, 08 Apr 2025 14:42:23 GMT"
         },
         {
           "Name": "Cache-Control",

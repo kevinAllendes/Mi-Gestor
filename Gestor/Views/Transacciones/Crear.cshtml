@@ -21,10 +21,10 @@
     </div>
     <!-- Ingreso del tipo de operacion de la transaccion -->
     <div class="mb-3">
-        <label asp-for="TipoOperacionId" class="form-label"></label>
-        <select asp-for="TipoOperacionId" asp-items="Html.GetEnumSelectList<TipoOperacion>()"
+        <label asp-for="tipoOperacionId" class="form-label"></label>
+        <select asp-for="tipoOperacionId" asp-items="Html.GetEnumSelectList<TipoOperacion>()"
         class="form-select"></select>
-        <span asp-validation-for="TipoOperacionId" class="text-danger"></span>
+        <span asp-validation-for="tipoOperacionId" class="text-danger"></span>
     </div>
     <!-- Ingreso de la categoria de la transaccion -->
     <div class="mb-3">

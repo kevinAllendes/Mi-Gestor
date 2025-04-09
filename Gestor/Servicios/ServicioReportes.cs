@@ -13,7 +13,7 @@ namespace Gestor.Servicios
     {
         private readonly IRepositorioTransacciones repositorioTransacciones;
         private readonly HttpContext httpContext;
-        public ServicioReportes(IRepositorioTransacciones repositorioTransacciones, HttpContextAccessor httpContextAccessor)
+        public ServicioReportes(IRepositorioTransacciones repositorioTransacciones, IHttpContextAccessor httpContextAccessor)
         {
             this.repositorioTransacciones = repositorioTransacciones;
             this.httpContext = httpContextAccessor.HttpContext;

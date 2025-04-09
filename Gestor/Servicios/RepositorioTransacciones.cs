@@ -182,12 +182,12 @@ namespace Gestor.Servicios
             using var connection = new SqlConnection(connectionString);
             return await connection.QueryAsync<Transaccion>(@"
                 SELECT t.Id, t.Monto, T.FechaTransaccion, c.Nombre as Categoria,
-                cu.Nombre as Cuenta, c.TipoOperacionId
+                Cu.Nombre as Cuenta, c.TipoOperacionId
                 FROM Transacciones t 
                 INNER JOIN Categorias c 
                 ON c.Id = t.CategoriaId
-                INNER JOIN Cuenta Cu
-                ON cu.Id = t.CuentaId
+                INNER JOIN Cuentas Cu
+                ON Cu.Id = t.CuentaId
                 WHERE t.UsuarioId = @UsuarioId
                 AND FechaTransaccion BETWEEN @FechaInicio AND @FechaFin
                 ORDER BY t.FechaTransaccion DESC", modelo);
