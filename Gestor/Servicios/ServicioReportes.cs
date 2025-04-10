@@ -6,7 +6,7 @@ namespace Gestor.Servicios
     {
         Task<ReporteTransaccionesDetalladas>  ObtenerReporteTransaccionesDetalladasPorCuenta(int usuarioId, int cuentaId,int mes, int año, dynamic ViewBag);
         Task<ReporteTransaccionesDetalladas> ObtenerReporteTransaccionesDetalladas(int usuarioID, int mes, int año, dynamic ViewBag);
-
+        Task<IEnumerable<ResultadoObtenerPorSemana>> ObtenerReporteSemanal(int usuarioId, int mes, int año, dynamic ViewBag);
     }
 
     public class ServicioReportes : IServicioReportes
@@ -103,6 +103,23 @@ namespace Gestor.Servicios
             }
             fechaFin =  fechaInicio.AddMonths(1).AddDays(-1);
             return (fechaInicio,fechaFin);
+
+        }
+
+        public async Task<IEnumerable<ResultadoObtenerPorSemana>> ObtenerReporteSemanal(int usuarioId, 
+            int mes, int año, dynamic ViewBag)
+        {
+            (DateTime fechaInicio, DateTime fechaFin) = GenerarFechaInicioYFin(mes, año);
+            var parametro = new ParametroObtenerTransaccionesPorUsuario()
+            {
+                UsuarioId = usuarioId,
+                FechaInicio = fechaInicio,
+                FechaFin = fechaFin
+            };
+            AsignarValores(ViewBag, fechaInicio);
+            var modelo =  await repositorioTransacciones.ObtenerPorSemana(parametro);
+            return modelo;
+
 
         }
     }
