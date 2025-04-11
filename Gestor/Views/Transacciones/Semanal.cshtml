@@ -6,9 +6,19 @@
     {
         return fecha.ToString("MM.dd");
     }
-}
 
+    var resumenMontos= new ResumenMontosViewModel()
+    {
+        Ingresos = Model.BalanceDepositos, 
+        Gastos = Model.BalanceRetiros, 
+        Total = Model.Total
+    };
+
+}
 <partial name="_SubMenu" Model="SubMenuTransacciones.Semanal"/>
+<partial name="_NavegarPorMeses" model="@Model.FechaReferencia" />
+<partial name="_ResumenMontos" model="@resumenMontos" />
+
 
 <table class="table" style="font-size: 20px;;">
     <thead>
@@ -32,7 +42,7 @@
             <td class="activo" style="text-align: right;">
                 @transaccionesPorSemana.Ingresos
             </td>
-            <td class="pasivo" style="text-align: right;"></td>
+            <td class="pasivo" style="text-align: right;">
                 @transaccionesPorSemana.Gastos
             </td>
         </tr>
