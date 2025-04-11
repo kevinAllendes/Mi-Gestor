@@ -9,8 +9,8 @@
 
     var resumenMontos= new ResumenMontosViewModel()
     {
-        Ingresos = Model.BalanceDepositos, 
-        Gastos = Model.BalanceRetiros, 
+        Ingresos = Model.Ingresos, 
+        Gastos = Model.Gastos, 
         Total = Model.Total
     };
 
@@ -20,7 +20,7 @@
 <partial name="_ResumenMontos" model="@resumenMontos" />
 
 
-<table class="table" style="font-size: 20px;;">
+<table class="table" style="font-size: 20px;">
     <thead>
         <tr>
             <th>Semana</th>

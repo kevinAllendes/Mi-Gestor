@@ -2,12 +2,12 @@
 
 @{
     ViewData["Title"] = "Reporte Mensual";
-    int añoAnterior = Model.Año -1;
-    int añoPosterior = Model.Año +1;
+    int añoAnterior = Model.año -1;
+    int añoPosterior = Model.año +1;
     var resumenMontos = new ResumenMontosViewModel()
     {
         Gastos = Model.Gastos,
-        Ingresos = Model.Ingesos,
+        Ingresos = Model.Ingresos,
         Total = Model.Total
     };
 }
@@ -16,8 +16,8 @@
     Mostrando transacciones de
     <a asp-route-año="@añoAnterior" class="btn btn-secondary">
         <i class="bi-chevron-left"></i>
-    </a> @Model.Año
-    <a asp-route-año="@añoPosterior" class="btn btn-secondary"></a>
+    </a> @Model.año
+    <a asp-route-año="@añoPosterior" class="btn btn-secondary">
         <i class="bi-chevron-right"></i>
     </a>
 </h4>
@@ -36,7 +36,7 @@
             <tr>
                 <td>
                     <a style="text-decoration: none;" asp-action="Index"
-                    asp-route-año="@Model.Año" asp-route-mes="@transaccionPorMes.Mes"
+                    asp-route-año="@Model.año" asp-route-mes="@transaccionPorMes.Mes"
                     >
                         @transaccionPorMes.FechaReferencia.ToString("MMM")
                     </a>

@@ -9,6 +9,7 @@ using Microsoft.IdentityModel.Abstractions;
 using System.Threading.Tasks;
 using System.IO.Compression;
 using System.Data;
+using ClosedXML.Excel;
 
 namespace Gestor.Controllers
 {
@@ -144,7 +145,7 @@ namespace Gestor.Controllers
                 año = DateTime.Today.Year;
             }
             var transaccionesPorMes = await repositorioTransacciones.ObtenerPorMes(usuarioId,año);
-            var transaccionesAgrupadas = transaccionesPorMes.GroupBy(x = > x.Mes)
+            var transaccionesAgrupadas = transaccionesPorMes.GroupBy(x => x.Mes)
                 .Select(x => new ResultadoObtenerPorMes()
                 {
                     Mes = x.Key,
@@ -159,7 +160,7 @@ namespace Gestor.Controllers
                 var fechaReferencia = new DateTime(año,mes,1);
                 if(transaccion is null)
                 {
-                    transaccionesAgrupadas.Add(new ResultadosPorMes()
+                    transaccionesAgrupadas.Add(new ResultadoObtenerPorMes()
                     {
                         Mes = mes,
                         FechaReferencia = fechaReferencia
@@ -171,7 +172,7 @@ namespace Gestor.Controllers
             }
             transaccionesAgrupadas = transaccionesAgrupadas.OrderByDescending(x => x.Mes).ToList();
             var modelo = new ReporteMensualViewModel();
-            modelo.Año = año;
+            modelo.año = año;
             modelo.TransaccionesPorMes = transaccionesAgrupadas;
             return View();
         }
