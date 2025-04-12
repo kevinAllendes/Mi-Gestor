@@ -36,6 +36,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Transacciones}/{action=Index}/{id?}");
+    pattern: "{controller=Transacciones}/{action=Calendario}/{id?}");
 
 app.Run();
