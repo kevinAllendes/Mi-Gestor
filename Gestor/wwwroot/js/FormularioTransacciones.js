@@ -2,7 +2,7 @@ function inicializarFormularioTransacciones(urlObtenerCategorias)
 {
     /** #region  Creamos el metodo que genera el cambio de categoria dependiendo
     del tipo de operacion */
-    $("#TipoOperacionId").change(async function(){
+    $("#tipoOperacionId").change(async function () {
         const valorSeleccionado =  $(this).val(); 
         const respuesta = await fetch(urlObtenerCategorias, {
             method: 'POST',

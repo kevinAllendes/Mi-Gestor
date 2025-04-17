@@ -7,7 +7,8 @@ namespace Gestor.Models
         public decimal Gastos => TransaccionesPorMes.Sum(x=> x.Gasto);
 
         public decimal Total => Ingresos - Gastos;
-        public int año {get;set;}
+
+        public int año = DateTime.Today.Year;
 
     }
 }

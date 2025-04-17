@@ -134,7 +134,7 @@ namespace Gestor.Controllers
             modelo.TransaccionesPorSemana = agrupado;
             modelo.FechaReferencia = fechaReferencia;
 
-            return View();
+            return View(modelo);
         }
 
         public async Task<IActionResult> Mensual(int año)
@@ -174,7 +174,7 @@ namespace Gestor.Controllers
             var modelo = new ReporteMensualViewModel();
             modelo.año = año;
             modelo.TransaccionesPorMes = transaccionesAgrupadas;
-            return View();
+            return View(modelo);
         }
 
         public IActionResult ExcelReporte()
@@ -306,7 +306,7 @@ namespace Gestor.Controllers
                 Title = transaccion.Monto.ToString("N"),
                 Start = transaccion.FechaTransaccion.ToString("yyyy-MM-dd"),
                 End = transaccion.FechaTransaccion.ToString("yyyy-MM-dd"),
-                Color = (transaccion.TipoOperacionId == TipoOperacion.Gasto) ? "Red" : null
+                Color = (transaccion.tipoOperacionId == TipoOperacion.Gasto) ? "Red" : null
             });
             return Json(eventosCalendario);
         }

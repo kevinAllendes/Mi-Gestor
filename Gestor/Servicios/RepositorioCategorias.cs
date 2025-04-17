@@ -55,7 +55,7 @@ namespace Gestor.Servicios
         {
             using var connection = new SqlConnection(connectionString);
             return await connection.QueryFirstOrDefaultAsync<Categorias>(
-                @"Select * From Categorias Where Id = @Id AND UsuariosId = @UsuarioId",
+                @"Select * From Categorias Where Id = @Id AND UsuarioId = @UsuarioId",
                 new { id, usuarioId});
         }
 

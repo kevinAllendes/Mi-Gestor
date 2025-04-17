@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|c:\\users\\kevin\\documents\\github\\mi-gestor\\gestor\\servicios\\servicioreportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|solutionrelative:gestor\\servicios\\servicioreportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|c:\\users\\kevin\\documents\\github\\mi-gestor\\gestor\\controllers\\transaccionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|solutionrelative:gestor\\controllers\\transaccionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|c:\\users\\kevin\\documents\\github\\mi-gestor\\gestor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|solutionrelative:gestor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|c:\\users\\kevin\\documents\\github\\mi-gestor\\gestor\\views\\transacciones\\calendario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{55240E32-42A4-452A-818E-8309EC65BFAE}|Gestor\\Gestor.csproj|solutionrelative:gestor\\views\\transacciones\\calendario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Program.cs",
-              "RelativeDocumentMoniker": "Gestor\\Program.cs",
-              "ToolTip": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Program.cs",
-              "RelativeToolTip": "Gestor\\Program.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACYAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T03:27:00.945Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TransaccionesController.cs",
-              "DocumentMoniker": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Controllers\\TransaccionesController.cs",
-              "RelativeDocumentMoniker": "Gestor\\Controllers\\TransaccionesController.cs",
-              "ToolTip": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Controllers\\TransaccionesController.cs",
-              "RelativeToolTip": "Gestor\\Controllers\\TransaccionesController.cs",
-              "ViewState": "AgIAAOUAAAAAAAAAAADwv/QAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T03:24:36.688Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ServicioReportes.cs",
-              "DocumentMoniker": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Servicios\\ServicioReportes.cs",
-              "RelativeDocumentMoniker": "Gestor\\Servicios\\ServicioReportes.cs",
-              "ToolTip": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Servicios\\ServicioReportes.cs",
-              "RelativeToolTip": "Gestor\\Servicios\\ServicioReportes.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAIA1wBYAAACPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T03:23:49.619Z",
+              "Title": "Calendario.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Views\\Transacciones\\Calendario.cshtml",
+              "RelativeDocumentMoniker": "Gestor\\Views\\Transacciones\\Calendario.cshtml",
+              "ToolTip": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\Views\\Transacciones\\Calendario.cshtml",
+              "RelativeToolTip": "Gestor\\Views\\Transacciones\\Calendario.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAqwCsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T00:48:15.438Z",
               "EditorCaption": ""
             }
           ]

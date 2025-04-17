@@ -55,11 +55,9 @@ namespace Gestor.Servicios
                     SELECT SCOPE_INDENTITY();
 
                 END
-
-
             */
             using var connection = new SqlConnection(connectionString);
-            var id = await connection.QuerySingleAsync<int>("Transacion_Insertar",
+            var id = await connection.QuerySingleAsync<int>("Transacciones_Insertar",
                 new
                 {
                     transaccion.UsuarioId,
@@ -67,7 +65,7 @@ namespace Gestor.Servicios
                     transaccion.Monto,
                     transaccion.CategoriaId,
                     transaccion.CuentaId,
-                    transaccion.Nota
+                    transaccion.Nota,
                 },
                 commandType: System.Data.CommandType.StoredProcedure);
             transaccion.Id = id;
