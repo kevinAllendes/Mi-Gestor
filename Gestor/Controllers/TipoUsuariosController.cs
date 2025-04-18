@@ -39,6 +39,26 @@ namespace Gestor.Controllers
             return View();
         }
 
+        //Devolvemos el formulario de registro
+        public IActionResult Registro()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Registro(RegistroViewModel modelo)
+        {
+            /**
+                Este metodo se utilizo con el framework identity
+            */
+            if(!ModelState.IsValid)
+            {
+                return View(modelo);
+            }
+            
+            return RedirectToAction("Index","Transacciones");
+        }
+
         
 
     }

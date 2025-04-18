@@ -1,5 +1,6 @@
 ﻿using Dapper;
 using Gestor.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 
@@ -8,7 +9,6 @@ namespace Gestor.Servicios
     public interface IRepositorioUsuarios
     {
         Task<bool> BuscarUsuario(TipoUsuarios usuarios);
-
         int ObtenerUsuarioId();
 
     }
@@ -28,11 +28,26 @@ namespace Gestor.Servicios
             return Existe==1;
             
         }
-
         public int ObtenerUsuarioId()
         //En contruccion: Este metodo nos dara el id del usuario que esta usando la aplicacion
         {
             return 1;
+        }
+
+        public async Task<int> CrearUsuario(TipoUsuarios usuario)
+        {
+            using var connection = new SqlConnection(connectionString);
+            var id = await connection.QuerySingleAsync<int>(@"INSERT INTO Usuarios (Email, EmailNormalizado, HashCode)
+            VALUES (@Emaill, @EmailNormalizado, @HashCode)", usuario);
+            return id;
+        }
+
+        private async Task<TipoUsuarios> BuscarUsuarioPorEmail(string emailNormalizado)
+        {
+            using var connection = new SqlConnection(connectionString);
+            return await connection.QuerySingleOrDefaultAsync<TipoUsuarios>(@"
+            SELECT * FROM Usuarios WHERE EmailNormalizado = @emailNormalizado",
+            new {emailNormalizado});
         }
     }
 
