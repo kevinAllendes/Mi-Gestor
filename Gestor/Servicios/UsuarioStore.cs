@@ -6,9 +6,16 @@ namespace Gestor.Servicios
     public class UsuarioStore : IUserStore<TipoUsuarios>, IUserEmailStore<TipoUsuarios>,
     IUserPasswordStore<TipoUsuarios>
     {
-        public Task<IdentityResult> CreateAsync(TipoUsuarios user, CancellationToken cancellationToken)
+        private readonly IRepositorioUsuarios repositorioUsuarios;
+        public UsuarioStore(IRepositorioUsuarios repositorioUsuarios)
         {
-            throw new NotImplementedException();
+            this.repositorioUsuarios = repositorioUsuarios;
+
+        }
+        public async Task<IdentityResult> CreateAsync(TipoUsuarios user, CancellationToken cancellationToken)
+        {
+            user.IdUser = await repositorioUsuarios.CrearUsuario(user);
+            return IdentityResult.Success;
         }
 
         public Task<IdentityResult> DeleteAsync(TipoUsuarios user, CancellationToken cancellationToken)
@@ -18,27 +25,27 @@ namespace Gestor.Servicios
 
         public void Dispose()
         {
-            throw new NotImplementedException();
+            
         }
 
-        public Task<TipoUsuarios?> FindByEmailAsync(string normalizedEmail, CancellationToken cancellationToken)
+        public async Task<TipoUsuarios> FindByEmailAsync(string normalizedEmail, CancellationToken cancellationToken)
+        {
+            return await repositorioUsuarios.BuscarUsuarioPorEmail(normalizedEmail);
+        }
+
+        public Task<TipoUsuarios> FindByIdAsync(string userId, CancellationToken cancellationToken)
         {
             throw new NotImplementedException();
         }
 
-        public Task<TipoUsuarios?> FindByIdAsync(string userId, CancellationToken cancellationToken)
+        public async Task<TipoUsuarios> FindByNameAsync(string normalizedEmail, CancellationToken cancellationToken)
         {
-            throw new NotImplementedException();
-        }
-
-        public Task<TipoUsuarios?> FindByNameAsync(string normalizedUserName, CancellationToken cancellationToken)
-        {
-            throw new NotImplementedException();
+              return await repositorioUsuarios.BuscarUsuarioPorEmail(normalizedEmail);
         }
 
         public Task<string> GetEmailAsync(TipoUsuarios user, CancellationToken cancellationToken)
         {
-            throw new NotImplementedException();
+            return Task.FromResult(user.Email);
         }
 
         public Task<bool> GetEmailConfirmedAsync(TipoUsuarios user, CancellationToken cancellationToken)
@@ -58,17 +65,17 @@ namespace Gestor.Servicios
 
         public Task<string> GetPasswordHashAsync(TipoUsuarios user, CancellationToken cancellationToken)
         {
-            throw new NotImplementedException();
+            return Task.FromResult(user.Password);
         }
 
         public Task<string> GetUserIdAsync(TipoUsuarios user, CancellationToken cancellationToken)
         {
-            throw new NotImplementedException();
+            return Task.FromResult(user.IdUser.ToString());
         }
 
         public Task<string> GetUserNameAsync(TipoUsuarios user, CancellationToken cancellationToken)
         {
-            throw new NotImplementedException();
+            return Task.FromResult(user.Email);
         }
 
         public Task<bool> HasPasswordAsync(TipoUsuarios user, CancellationToken cancellationToken)
@@ -88,17 +95,19 @@ namespace Gestor.Servicios
 
         public Task SetNormalizedEmailAsync(TipoUsuarios user, string normalizedEmail, CancellationToken cancellationToken)
         {
-            throw new NotImplementedException();
+            user.EmailNormalizado = normalizedEmail;
+            return Task.CompletedTask;
         }
 
         public Task SetNormalizedUserNameAsync(TipoUsuarios user, string normalizedName, CancellationToken cancellationToken)
         {
-            throw new NotImplementedException();
+            return Task.CompletedTask;
         }
 
         public Task SetPasswordHashAsync(TipoUsuarios user, string passwordHash, CancellationToken cancellationToken)
         {
-            throw new NotImplementedException();
+            user.Password = passwordHash;
+            return Task.CompletedTask;
         }
 
         public Task SetUserNameAsync(TipoUsuarios user, string userName, CancellationToken cancellationToken)

@@ -10,6 +10,9 @@ namespace Gestor.Servicios
     {
         Task<bool> BuscarUsuario(TipoUsuarios usuarios);
         int ObtenerUsuarioId();
+        Task<TipoUsuarios> BuscarUsuarioPorEmail(string emailNormalizado);
+        Task<int> CrearUsuario(TipoUsuarios usuario);
+
 
     }
 
@@ -24,7 +27,9 @@ namespace Gestor.Servicios
         public async Task<bool> BuscarUsuario(TipoUsuarios usuario)
         {
             var connection =  new SqlConnection(connectionString);
-            var Existe = await connection.QueryFirstOrDefaultAsync<int>(@"SELECT 1 FROM Usuarios WHERE Usuario=@nombreUsuario AND Password=@Password ", new { usuario.nombreUsuario, usuario.Password} );
+            var Existe = await connection.QueryFirstOrDefaultAsync<int>(@"
+            SELECT 1 FROM Usuarios WHERE Usuario=@nombreUsuario AND Password=@Password 
+            ", new { usuario.nombreUsuario, usuario.Password} );
             return Existe==1;
             
         }
@@ -37,12 +42,14 @@ namespace Gestor.Servicios
         public async Task<int> CrearUsuario(TipoUsuarios usuario)
         {
             using var connection = new SqlConnection(connectionString);
-            var id = await connection.QuerySingleAsync<int>(@"INSERT INTO Usuarios (Email, EmailNormalizado, HashCode)
-            VALUES (@Emaill, @EmailNormalizado, @HashCode)", usuario);
+            var id = await connection.QuerySingleAsync<int>(@"
+            INSERT INTO Usuarios (Email, EmailNormalizado, HashCode)
+            VALUES (@Emaill, @EmailNormalizado, @HashCode);
+            SELECT SCOPE_IDENTITY();", usuario);
             return id;
         }
 
-        private async Task<TipoUsuarios> BuscarUsuarioPorEmail(string emailNormalizado)
+        public async Task<TipoUsuarios> BuscarUsuarioPorEmail(string emailNormalizado)
         {
             using var connection = new SqlConnection(connectionString);
             return await connection.QuerySingleOrDefaultAsync<TipoUsuarios>(@"

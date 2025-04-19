@@ -1,4 +1,6 @@
+using Gestor.Models;
 using Gestor.Servicios;
+using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,7 +14,24 @@ builder.Services.AddTransient<IRepositorioCategorias, RepositorioCategorias>();
 builder.Services.AddTransient<IRepositorioTransacciones, RepositorioTransacciones>();
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddTransient<IServicioReportes, ServicioReportes>();
+builder.Services.AddTransient<IRepositorioUsuarios, RepositorioTipoUsuarios>();
+builder.Services.AddTransient<IUserStore<TipoUsuarios>, UsuarioStore>();
+builder.Services.AddTransient<SignInManager<TipoUsuarios>>();
+builder.Services.AddIdentityCore<TipoUsuarios>( opciones =>
+{
+    opciones.Password.RequireDigit = false;
+    opciones.Password.RequireLowercase = false;
+    opciones.Password.RequireUppercase = false;
+    opciones.Password.RequireNonAlphanumeric = false;
 
+}).AddErrorDescriber<ManejoDeErrorIdentity>();
+
+builder.Services.AddAuthentication(option=>
+{
+    option.DefaultAuthenticateScheme = IdentityConstants.ApplicationScheme;
+    option.DefaultChallengeScheme = IdentityConstants.ApplicationScheme;
+    option.DefaultSignOutScheme = IdentityConstants.ApplicationScheme;
+}).AddCookie(IdentityConstants.ApplicationScheme);
 
 //Configuro auto mapper
 builder.Services.AddAutoMapper(typeof(Program));
@@ -31,6 +50,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+app.UseAuthentication();
 
 app.UseAuthorization();
 

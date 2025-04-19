@@ -1,21 +1,30 @@
-@model TipoUsuarios
+@model LoginViewModel
 
 @{
-    ViewData["Title"] = "Log in";
+    ViewData["Title"] = "Login";
     Layout = "_layout";
 }
-
-<div class="card">
-    <div class="card-body">
-        <form asp-controller="TipoUsuarios" asp-action="LogInUsuarios">
-            
-                    <label for="nombreUsuario" class="form-label"> Nombre </label>
-                    <input type="text" id="nombreUsuario" name="nombreUsuario" class="form-control" />
-                    <label for="Password" class="form-label"> Password </label>
-                    <input type="password" id="Password" name="Password" class="form-control" style="margin-bottom:5px;"/>
-                
-            <button type="submit" class="btn btn-primary">Logearse</button>
-            <button type="submit" class="btn btn-danger">Salir</button>
-        </form>
+<h1>Login</h1>
+<form asp-action="LoginUsuarios">
+    <div asp-asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="mb-3">
+        <label asp-for="Email" class="form-label"></label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
     </div>
-</div>
+    <div class="mb-3">
+        <label asp-for="Password" class="form-label"></label>
+        <input asp-for="Password" type="password" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <div class="from-check">
+        <input class="form-check-input" type="checkbox" asp-for="Recuerdame" />
+        <label class="form-check-label" asp-for="Recuerdame"></label>
+    </div>
+
+    <button class="btn-primary btn">Ingresar</button>
+</form>
+
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+}
