@@ -10,9 +10,11 @@ using System.Threading.Tasks;
 using System.IO.Compression;
 using System.Data;
 using ClosedXML.Excel;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Gestor.Controllers
 {
+    //[Authorize] //Puedo apicar la autorizacion a nivel del controlador
     public class TransaccionesController: Controller
     {
         private readonly IRepositorioUsuarios servicioUsuarios;
@@ -306,11 +308,13 @@ namespace Gestor.Controllers
                 Title = transaccion.Monto.ToString("N"),
                 Start = transaccion.FechaTransaccion.ToString("yyyy-MM-dd"),
                 End = transaccion.FechaTransaccion.ToString("yyyy-MM-dd"),
-                Color = (transaccion.TipoOperacionId == TipoOperacion.Gasto) ? "Red" : null
+                Color = (transaccion.tipoOperacionId == TipoOperacion.Gasto) ? "Red" : null
             });
             return Json(eventosCalendario);
         }
 
+        /**Defino un autorizacion para acceder al Indice de transacciones*/
+        [Authorize]
         public async Task<IActionResult> Index(int mes, int año)
         {
             var usuarioID = servicioUsuarios.ObtenerUsuarioId();

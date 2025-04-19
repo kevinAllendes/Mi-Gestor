@@ -1,9 +1,14 @@
 using Gestor.Models;
 using Gestor.Servicios;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc.Authorization;
 
 var builder = WebApplication.CreateBuilder(args);
-
+var politicaDeUsuariosAutenticados = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
+//Add policiy
+builder.Services.AddControllersWithViews(opciones=>
+{opciones.Filters.Add(new AuthorizeFilter(politicaDeUsuariosAutenticados));});
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 //Agregamos los servicios creados
@@ -31,7 +36,14 @@ builder.Services.AddAuthentication(option=>
     option.DefaultAuthenticateScheme = IdentityConstants.ApplicationScheme;
     option.DefaultChallengeScheme = IdentityConstants.ApplicationScheme;
     option.DefaultSignOutScheme = IdentityConstants.ApplicationScheme;
-}).AddCookie(IdentityConstants.ApplicationScheme);
+}).AddCookie(IdentityConstants.ApplicationScheme, opciones =>
+    {
+        opciones.LoginPath = "/usuarios/login";
+    }
+    ); 
+
+
+
 
 //Configuro auto mapper
 builder.Services.AddAutoMapper(typeof(Program));

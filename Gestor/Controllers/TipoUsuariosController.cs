@@ -6,6 +6,7 @@ using Gestor.Servicios;
 using Microsoft.AspNetCore.Identity;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Gestor.Controllers
 {
@@ -23,11 +24,13 @@ namespace Gestor.Controllers
             this.userManager = userManager;
             this.signInManager = signInManager;
         }
+        [AllowAnonymous]
         public IActionResult LogInUsuarios()
         {
             return View(); 
         }
-
+        
+        [AllowAnonymous]
         [HttpPost]
         public async Task<IActionResult> LogInUsuarios(LoginViewModel modelo)
         {
@@ -58,11 +61,12 @@ namespace Gestor.Controllers
         }
 
         //Devolvemos el formulario de registro
+        [AllowAnonymous]
         public IActionResult Registro()
         {
             return View();
         }
-
+        [AllowAnonymous]
         [HttpPost]
         public async Task<IActionResult> Registro(RegistroViewModel modelo)
         {
