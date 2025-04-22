@@ -205,6 +205,14 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
+      "Id": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\callendar\\index.global.js",
+      "PackagePath": "staticwebassets\\lib\\callendar\\index.global.js"
+    },
+    {
+      "Id": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\callendar\\index.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\callendar\\index.global.min.js"
+    },
+    {
       "Id": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery-ui\\AUTHORS.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-ui\\AUTHORS.txt"
     },

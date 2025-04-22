@@ -1,7 +1,7 @@
 @using Microsoft.AspNetCore.Identity
 @inject SignInManager<TipoUsuarios> SignInManager
 @{
-    ViewData["Title"] = "Links!."
+    ViewData["Title"] = "Links!.";
 }
 <ul class="navbar-nav">
     @if (SignInManager.IsSignedIn(User))

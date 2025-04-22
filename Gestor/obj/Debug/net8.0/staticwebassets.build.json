@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "maY5OqtdyIYAnCisdN4/Dc6AIuYUPQf4rIpPduG7ZaY=",
+  "Hash": "wS9dGkUfBE0/qO4jbpnKyMz4Ji/drKj0BOn46BNp3yc=",
   "Source": "Gestor",
   "BasePath": "_content/Gestor",
   "Mode": "Default",
@@ -1109,6 +1109,48 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
+      "Identity": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\callendar\\index.global.js",
+      "SourceId": "Gestor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\",
+      "BasePath": "_content/Gestor",
+      "RelativePath": "lib/callendar/index.global#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bcgnhcvi47",
+      "Integrity": "hXwIwK6K7U+lMZ+YbA0IY53G2msXg1Le7U59CssDF9c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\callendar\\index.global.js"
+    },
+    {
+      "Identity": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\callendar\\index.global.min.js",
+      "SourceId": "Gestor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\",
+      "BasePath": "_content/Gestor",
+      "RelativePath": "lib/callendar/index.global.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3gwhfvsrww",
+      "Integrity": "fXaygI8pajrrxgw63GNn3AhHXIKC27I9r7yUcf6Par0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\callendar\\index.global.min.js"
+    },
+    {
       "Identity": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Gestor",
       "SourceType": "Discovered",
@@ -1784,7 +1826,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 14:42:23 GMT"
+          "Value": "Tue, 22 Apr 2025 13:40:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1821,7 +1863,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 14:42:23 GMT"
+          "Value": "Tue, 22 Apr 2025 13:40:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1866,7 +1908,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 17 Sep 2024 15:53:50 GMT"
+          "Value": "Thu, 17 Apr 2025 00:29:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1911,7 +1953,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 17 Sep 2024 15:53:50 GMT"
+          "Value": "Thu, 17 Apr 2025 00:29:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2194,7 +2236,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 14:42:23 GMT"
+          "Value": "Tue, 22 Apr 2025 13:40:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2231,7 +2273,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 14:42:23 GMT"
+          "Value": "Tue, 22 Apr 2025 13:40:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6022,6 +6064,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-ZH6pA6BSx6fuHZvdaKph1DwUJ+VSYilIiEQu8ilnvqk="
+        }
+      ]
+    },
+    {
+      "Route": "lib/callendar/index.global.bcgnhcvi47.js",
+      "AssetFile": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\callendar\\index.global.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9791"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hXwIwK6K7U+lMZ+YbA0IY53G2msXg1Le7U59CssDF9c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Apr 2025 14:00:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bcgnhcvi47"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/callendar/index.global.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hXwIwK6K7U+lMZ+YbA0IY53G2msXg1Le7U59CssDF9c="
+        }
+      ]
+    },
+    {
+      "Route": "lib/callendar/index.global.js",
+      "AssetFile": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\callendar\\index.global.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9791"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hXwIwK6K7U+lMZ+YbA0IY53G2msXg1Le7U59CssDF9c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Apr 2025 14:00:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hXwIwK6K7U+lMZ+YbA0IY53G2msXg1Le7U59CssDF9c="
+        }
+      ]
+    },
+    {
+      "Route": "lib/callendar/index.global.min.3gwhfvsrww.js",
+      "AssetFile": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\callendar\\index.global.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3352"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fXaygI8pajrrxgw63GNn3AhHXIKC27I9r7yUcf6Par0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Apr 2025 14:00:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3gwhfvsrww"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/callendar/index.global.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fXaygI8pajrrxgw63GNn3AhHXIKC27I9r7yUcf6Par0="
+        }
+      ]
+    },
+    {
+      "Route": "lib/callendar/index.global.min.js",
+      "AssetFile": "C:\\Users\\Kevin\\Documents\\GitHub\\Mi-Gestor\\Gestor\\wwwroot\\lib\\callendar\\index.global.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3352"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fXaygI8pajrrxgw63GNn3AhHXIKC27I9r7yUcf6Par0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Apr 2025 14:00:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fXaygI8pajrrxgw63GNn3AhHXIKC27I9r7yUcf6Par0="
         }
       ]
     },

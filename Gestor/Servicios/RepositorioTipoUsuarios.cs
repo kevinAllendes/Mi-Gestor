@@ -31,8 +31,8 @@ namespace Gestor.Servicios
         {
             var connection =  new SqlConnection(connectionString);
             var Existe = await connection.QueryFirstOrDefaultAsync<int>(@"
-            SELECT 1 FROM Usuarios WHERE Usuario=@nombreUsuario AND Password=@Password 
-            ", new { usuario.nombreUsuario, usuario.Password} );
+            SELECT 1 FROM Usuarios WHERE EmailNormalizado=@EmailNormalizado AND Password=@Password 
+            ", new { usuario.EmailNormalizado, usuario.Password} );
             return Existe==1;
             
         }
@@ -55,8 +55,8 @@ namespace Gestor.Servicios
         {
             using var connection = new SqlConnection(connectionString);
             var id = await connection.QuerySingleAsync<int>(@"
-            INSERT INTO Usuarios (Email, EmailNormalizado, HashCode)
-            VALUES (@Emaill, @EmailNormalizado, @HashCode);
+            INSERT INTO Usuarios (Email, EmailNormalizado, Password)
+            VALUES (@Emaill, @EmailNormalizado, @Password);
             SELECT SCOPE_IDENTITY();", usuario);
 
             await connection.ExecuteAsync("CrearDatosUsuarioNuevo", new{id},
@@ -69,7 +69,7 @@ namespace Gestor.Servicios
         {
             using var connection = new SqlConnection(connectionString);
             return await connection.QuerySingleOrDefaultAsync<TipoUsuarios>(@"
-            SELECT * FROM Usuarios WHERE EmailNormalizado = @emailNormalizado",
+            SELECT * FROM Usuarios WHERE EmailNormalizado = @EmailNormalizado",
             new {emailNormalizado});
         }
     }
